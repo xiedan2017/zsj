@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+            function a(url,data,success){
+                var xml = window.XMLHttpRequest ? new XMLHttpRequest():new ActiveXObject('Microsoft.XMLHTTP');
+                xml.open('get',url+data,true);
+                xml.onreadystatechange = function(){
+                    if(xml.readyState == 4&&xml.status==200){
+                        console.log(xml.responseText);
+                    }
+                }
+                xml.send(null)
+            }
+
+
+
+
+    </script>
+
+</head>
+<body>
+<button onclick="a('http://192.168.173.1:8888/getBanner','')">点击加载</button>
+</body>
+</html>
