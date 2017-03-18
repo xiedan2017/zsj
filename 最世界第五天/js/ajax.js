@@ -258,15 +258,59 @@ function ajax(url,data,success){
     ajax('http://192.168.191.1:8888/getFreeWalk','',setFreeWalkData);
 
    //解析城市行数据
-//        function setCityWalkData(jsonstr){
-//            var jsonObj = JSON.parse(jsonStr);
-//            var msgArr = jsonObj.msg;
-//            for(var i in msgArr){
-//                var msgObj = msgArr[i];
-//
-//            }
-//        }
-//    ajax('http://192.168.191.1:8888/getCityWalk','',setCityWalkData);
+       function setCityWalkData(jsonstr){
+           console.log(jsonstr)
+           var jsonObj = JSON.parse(jsonstr);
+           var msgArr = jsonObj.msg;
+           for(var i in msgArr){
+               var msgObj = msgArr[i];
+               div.append(
+                   '<dl class="content">'+
+                   '<a href="#">'+
+                   '<dt>'+
+                   '<img class= "pic" src="'+dataObj.imgUrl+'"/>'+
+                   '<div class="infos">'+
+                   '<p class="type">机+酒</p>'+
+                   '<p class="price"><em>'+dataObj.price+'</em>元起</p>'+
+                   '</div>'+
+                   '</dt>'+
+                   '<dd class="titles">'+
+                   '<h3 class="title">'+dataObj.title+'</h3>'+
+
+                   '</dd>'+
+                   '</a>'+
+                   '</dl>'
+               )
+               $('<div></div>')
+                   .addClass('more')
+                   .append(
+                       $('<div></div>')
+                           .addClass('titles')
+                           .append(
+                               $('<a></a>')
+                                   .append(
+                                       $('<p></p>').addClass('title').html('查看更多<br>机酒自由行产品')
+                                   )
+                                   .append(
+                                       $('<img>').attr('src','img/more.png')
+                                   )
+                           )
+                   )
+                   .append(
+                       $('<p></p>')
+                           .addClass('list')
+                           .append('<a href="#">机票</a>|')
+                           .append('<a href="#">酒店</a>|')
+                           .append('<a href="#">机+酒</a>|')
+                           .append('<a href="#">邮轮</a>')
+
+
+                   ).appendTo(div);
+
+
+           }
+       }
+   ajax('http://192.168.191.1:8888/getCityWalk','',setCityWalkData);
 
 
 

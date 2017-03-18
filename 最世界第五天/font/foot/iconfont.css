@@ -15,15 +15,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-QQ:before { content: "\e607"; }
+.icon-mail:before { content: "\e64a"; }
 
-.icon-weixin:before { content: "\e603"; }
+.icon-weibo:before { content: "\e619"; }
 
-.icon-unie61d:before { content: "\e60a"; }
+.icon-wechat:before { content: "\e64b"; }
 
-.icon-iconfontyouhuiquan:before { content: "\e627"; }
-
-.icon-qq1:before { content: "\e64b"; }
-
-.icon-shousuo:before { content: "\e604"; }
+.icon-iphone:before { content: "\e604"; }
 
