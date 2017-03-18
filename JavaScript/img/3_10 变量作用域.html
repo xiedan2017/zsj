@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var scope = "global";  //声明一个全局变量
+    function checkscope(){
+        var scope = "local";  //声明一个同名的局部变量
+        return scope;          //返回局部变量的值，而不是全局变量的值
+    }
+    console.log(checkscope());   // => "local"
+</script>
+</body>
+</html>
