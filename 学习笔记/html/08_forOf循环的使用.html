@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    //创建
+    var str = 'abcd';
+    var person ={
+        name : "钱钱",
+        age : 18
+    }
+    var arr = ['aa','bb','cc'];
+    var map = new Map(
+        [
+            ['name','折柳'],
+            ['sex','不详']
+        ]
+    );
+
+    //需要总结
+    //变量字符串
+    for(var tempChr of str){
+        console.log(tempChr);
+    }
+    console.log("===分割线===");
+    //遍历自定义对象（不支持）
+//可以分析的
+    //遍历数组
+    for (var tempEle of arr) {
+        console.log(tempEle);
+    }
+    console.log("===分割线===");
+    //遍历map
+    for (var tempArr of map) {
+        console.log(tempArr[0] + "===" + tempArr[1]);
+    }
+    console.log("===分割线===");
+    for (var [key,value] of  map){
+        console.log(key + " : " + value);
+    }
+    console.log("===分割线===");
+    //我只要
+    for (var tempKey of map.keys()){
+        console.log(tempKey);
+    }
+    console.log("===分割线===");
+    //主要看应用场景
+    for (var tempValue of map.values()){
+        console.log(tempValue)
+    }
+
+</script>
+</body>
+</html>

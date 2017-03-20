@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input{
+            width: 200px;
+            height: 50px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+
+<input type="button" value="点我！！" />
+<script type="text/javascript">
+    function Person() {
+        this.dog = new Dog();
+        this.cat = new Cat();
+        this.mouse = new Mouse();
+        //第三：并直接会把后面this的代码换成self
+        var self = this;
+        //第二种方法 统一设置宠物的名字
+        Object.defineProperty(this,'petName',{
+            //参数是要设置的宠物名字
+            set : function (newPetName) {
+                //建议还是不要这样写 将self 代替 this写
+                self.dog.dogName = "狗狗："+
+                        newPetName;
+                this.cat.catName ="猫：" +
+                        newPetName;
+                this.mouse.mouseName ="鼠鼠："+
+                        newPetName;
+            },
+            get : function () {
+                return [this.dog.dogName,this.cat.catName,this.mouse.mouseName];
+            }
+        });
+    }
+    function Dog() {
+
+    }
+    function Cat() {
+
+    }
+    function Mouse() {
+
+    }
+    var person1 = new Person();
+    // 统一给这些产物设置一个name,原来的做法做法如下：
+//    person1.dog.dogName = "妞妞";
+//    person1.cat.catName = "妞妞";
+//    person1.mouse.mouseName = "妞妞";
+
+    //用Objesr.defineProperty 来实现以上功能
+    //会自动调入到上面的set
+    person1.petName = "妞妞";
+    console.log(person1.petName);
+    console.log(person1);
+
+    //场景2： 点击按钮，边框变椭圆
+    var btn = document.querySelector("input");
+    Object.defineProperty(btn,"bordeRadius",{
+        //参数是borderRadius的值
+       set : function (bordeRadiusValue){
+           btn.style.webkitBorderRadius =
+               bordeRadiusValue;
+           btn.style.mozBorderRadius =
+               bordeRadiusValue;
+           btn.style.borderRadius =
+               bordeRadiusValue;
+       }
+    });
+    btn.onclick = function () {
+        //就会自动调入到上面的set方法
+        btn.bordeRadius = "50%";
+    }
+</script>
+</body>
+</html>
