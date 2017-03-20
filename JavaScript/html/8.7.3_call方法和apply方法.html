@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function trace(o,m) {
+        var original = o[m];
+        o[m] = function () {
+            console.log(new Data(),"Entering:",m);
+            var result = original.apply(this,arguments);
+            console.log(new Data(),"Entering:",m);
+            return result;
+        }
+    }
+</script>
+</body>
+</html>
