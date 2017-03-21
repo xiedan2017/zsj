@@ -18,7 +18,15 @@
             ['sex','不详']
         ]
     );
-    //
+    //重写字符串的Symbol.iterator 方法
+    String.prototype[Symbol.iterator] = function (){
+        var num = 0;
+        var self = this;
+
+    }
+
+
+
     console.log(person[Symbol.iterator]);
     console.log(str[Symbol.iterator]);
     console.log(arr[Symbol.iterator]);

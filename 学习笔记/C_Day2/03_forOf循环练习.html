@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		//分析字面量对象
+		var rootObj = {
+			//地区数组
+			regions : [
+				//地区对象
+				{
+					regionName : "北京地区",
+					//学校数组
+					schools : [
+						{
+							schoolName : "北京一中",
+							//班级数组
+							classes : [
+								{
+									className : "H5-1606",
+									//学生数组
+									students : [
+										{
+											studentName : "丁丁"
+										},
+										{
+											studentName : "马丹丹"
+										}
+									]
+								},
+								{
+									className : "iOS-1602",
+									//学生数组
+									students : [
+										{
+											studentName : "丁环宇"
+										},
+										{
+											studentName : "张俊"
+										}
+									]
+								}
+							]
+						},
+						{
+							schoolName : "北京二中",
+							//班级数组
+							classes : [
+								{
+									className : "H5-1605",
+									//学生数组
+									students : [
+										{
+											studentName : "刘升升"
+										},
+										{
+											studentName : "张三三"
+										}
+									]
+								},
+								{
+									className : "iOS-1603",
+									//学生数组
+									students : [
+										{
+											studentName : "丁丁"
+										},
+										{
+											studentName : "肖小军"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		//写死 ，找到马丹丹
+		console.log(rootObj.regions[0].schools[0].classes[0].students[1].studentName);
+
+		function findPersonInfo(personName) {
+			//for of 循环 高级第一天内容
+//			for(rootObj.regions < typeof ;index.length;index++)
+//			    for( schools of  )
+//			        for(classes of)      找个人从头找
+//			            for( students of)  基本技能是必须得会的
+			//遇到对象就点 遇到数组就遍历
+			for (var tempRegion of rootObj.regions){
+			    for(var tempSchool of tempSchool.schools){
+			        for(var tempClass of )
+
+			            if(tempStudent )
+				}
+			}
+
+
+        }
+        findPersonInfo('马丹丹');
+	</script>
+</body>
+</html>
