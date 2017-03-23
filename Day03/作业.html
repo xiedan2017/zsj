@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+<form action="#" method="post">
+    <input type="color"><span id="value">R</span><br />
+    <span id="value">R</span>R<input id="range"  type="range" max="255" min="0" value="10"step="1"oninput="change()" onchange="change()"><br />
+    <span id="value">G:</span><input id="range" type="range" max="255" min="0" value="30" step="1"oninput="change()"onchange="change()"><br />
+    <sapn id="value">B:</sapn><input id="range" type="range" max="255" min="0" value="50" step="1"oninput="change()"onchange="change()"><br />
+</form>
+<script type="text/javascript">
+    var color = document.querySelector('input[type=color]');
+
+    color.onchange = function () {
+        console.log(this.value);
+        document.body.style.backgroundColor = this.value;
+    }
+    var range = document.querySelectorAll('input[type=range]');
+    for(var i = 0;i < ranges.length;i++){
+        ranges[i].onchange = changeFn;
+    }
+
+    range.onchange = function () {
+        console.log(this.range);
+        document.body.style.backgroundColor = this.range;
+
+    }
+    function change(){
+        var value = document.getElementById('range').value;
+        document.getElementById('value').innerHTML = value;
+    }
+
+</script>
+</body>
+</html>
