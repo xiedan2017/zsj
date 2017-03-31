@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+       .container{
+           width: 200px;
+           height: 200px;
+           margin: 50px;
+           float: left;
+           border: 1px solid gray;
+           border-radius: 50%;
+
+           /* 支持3D 空间呈现 */
+           transform-style: preserve-3d;
+       }
+       .box{
+           width: 25%;
+           height: 50%;
+           opacity: 0.75;
+       }
+
+
+       /* 2d 平移 */
+       #div_1 .box{
+           background-color: red;
+           /*transform: translateX(-30px) translateY(30px);*/
+           transform: translate(100px, 0px);
+       }
+       #div_2 .box {
+           background-color: green;
+           /*transform: translateX(-30px) translateY(30px);*/
+           transform: translate(100px, 0px);
+       }
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+<div id="div_1" class="">
+    <div class="box"></div>
+
+</div>
+</body>
+</html>

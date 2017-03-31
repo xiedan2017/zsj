@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    var str = 'abcd';
+    var person ={
+        name : "钱钱",
+        age : 18
+    }
+    var arr = ['aa','bb','cc'];
+    var map = new Map(
+        [
+            ['name','折柳'],
+            ['sex','不详']
+        ]
+    );
+    //重写字符串的Symbol.iterator 方法
+    String.prototype[Symbol.iterator] = function (){
+        var num = 0;
+        var self = this;
+
+    }
+
+
+
+    console.log(person[Symbol.iterator]);
+    console.log(str[Symbol.iterator]);
+    console.log(arr[Symbol.iterator]);
+    console.log(map[Symbol.iterator]);
+
+//    str[Symbol.]   //匿名函数  本身 或者是  ___? 一般出两层 出到四层老师也得蒙，公司考是三层 怎么报的错，怎么扣
+    //迭代器对象
+    var stringIterator = str[Symbol.iterator]();
+    console.log(stringIterator.next())
+</script>
+</body>
+</html>

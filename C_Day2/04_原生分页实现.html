@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type="text/javascript" src="lib/jquery.js" ></script>
+	</head>
+	<body>
+		<table id="my_table" border="1px">
+			<thead>
+				<tr>
+					<th>姓名</th>
+					<th>性别</th>
+					<th>年龄</th>
+					<th>住址</th>
+				</tr>
+			</thead>
+			<tbody>
+				 <tr>
+					<td>刘升升</td>
+					<td>男</td>
+					<td>18</td>
+					<td>二拨子新村</td>
+				</tr>
+				<tr>
+					<td>刘升升</td>
+					<td>男</td>
+					<td>18</td>
+					<td>二拨子新村</td>
+				</tr>
+				<tr>
+					<td>刘升升</td>
+					<td>男</td>
+					<td>18</td>
+					<td>二拨子新村</td>
+				</tr>
+				<tr>
+					<td>刘升升</td>
+					<td>男</td>
+					<td>18</td>
+					<td>二拨子新村</td>
+				</tr> 
+			</tbody>
+		</table>
+		<div class="fenye">
+			<a href="###" class="start">首页</a>
+			<a href="###" class="prev"><<上一页</a>
+			<!--<a href="###" name="p" style="background:orange;color:#fff;">1</a>-->
+			<!--<a href="###" name="p" >2</a>-->
+			<!--<a href="###" name="p" >3</a>-->
+			<a href="###" class="next">下一页>></a>	
+			<a href="###" class="end" >尾页</a>		
+		</div>
+		<script type="text/javascript">
+			var personsList = null;
+			var totalCount = 0;
+//			var currentPageNo
+			function initBtn() {
+				$.getJSON('data.json',null,function(resultData){
+				    console.log(resultData);
+				    //缓存
+				    personsList = resultData.persons;
+				    totalCount = resultData.totalCount;
+
+				    //页码个数
+					for (var i = Math.ceil(totalCount / 5); i >= 1;i--){
+					    var $a = $('<a href="###" name="p">' + i + '</a>');
+					    if(i == 1) {
+					        $a.css({
+					            background : 'orang',
+								color : '#fff'
+
+							});
+						};
+                        $('.prev').after('$a');
+
+					}
+					//默认显示第一页
+					showData()
+				});
+            }
+            initBtn();
+			
+			//构建某一页
+			function showData(pageNo) {
+                var currentArr = personList.slice((pageNo -1)*5,pageNo * 5);
+//                console.log(currentArr);
+//            <tr>
+//                <td>刘升升</td>
+//                <td>男</td>
+//                <td>18</td>
+//                <td>二拨子新村</td>
+//                </tr>
+//            }
+		var $str = '';
+		for (var tempPerson of currentArr){
+			$str += '<tr>';
+			for (var tempProp in tempPropson) {
+			    $str += '<td>' + tempPerson[tempProp] + '</td>'
+			}
+			$str += '</tr>'
+		}
+		$('tbody').html($str)
+            }
+		</script>
+	</body>
+</html>

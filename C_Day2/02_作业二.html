@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var obj = {
+        name : '铁蛋儿',
+        age : 24
+    }
+    //千万不要给Object的原型上加上任何自定义的东西
+    Object.prototype[Symbol.iterator] = function () {
+        var num = 0;
+        var valuArr = new Array();
+        for (var tempProp in this) {
+            valueArr.push(this[tempProp]);
+        }
+        return {
+            next : function (){
+                return{
+                    value : 'valueArr[num++]',
+                    done : num -1 >= valueArr.length ? true : false
+                }
+            }
+        }
+    }
+    var objIterator = obj[Symbol.iterator]();
+    console.log(objIterator.next());
+</script>
+</body>
+</html>
