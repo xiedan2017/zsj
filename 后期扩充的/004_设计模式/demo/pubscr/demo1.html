@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+function Observer() {
+    this.topics= {};
+    this.uuid = -1;
+}
+Observer.prototype = {
+	constructor:Observer,
+    sub: function (topic,func) {
+    	if(!this.topics[topic]){
+    		this.topics[topic] = [];
+    	}
+    	var token = (++this.uuid).toString();
+    	this.topics[topic].push({
+    		token:token,
+    		func:func
+    	})
+        return token;
+    },
+    unsub: function (token) {
+    	var topics = this.topics;
+        for (var k in topics) {
+            if (topics[k]) {
+                for (var i = 0, j = topics[k].length; i < j; i++) {
+                    if (topics[k][i].token === token) {
+                        topics[k].splice(i, 1);
+                        return token;
+                    }
+                }
+            }
+        }
+        return false;
+    },
+    pub: function (topic, args) {
+    	var topics = this.topics;
+        if (!topics[topic]) {
+            return false;
+        }
+
+        setTimeout(function () {
+            var subscribers = topics[topic],
+                len = subscribers ? subscribers.length : 0;
+
+            while (len--) {
+                subscribers[len].func(topic, args);
+            }
+        }, 0);
+
+        return true;
+    }
+};
+
+//测试
+
+var obj = new Observer();
+
+obj.sub('tc1', function (topics, data) {
+    console.log(topics + ": " + data);
+});
+
+//发布通知
+obj.pub('tc1', 'aaa!');
+obj.pub('tc1', ['a1', 'zh', 'sss', 'ddd']);
+
+
+</script>
+</body>
+</html>

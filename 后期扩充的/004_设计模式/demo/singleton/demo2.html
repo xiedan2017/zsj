@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var Singleton = (function () {
+
+    var instance;
+
+    function Singleton(args) {
+
+        var args = args || {};
+        
+        this.name = 'name';
+     
+        this.age = args.age || 6;
+        this.address = args.address || 101;
+
+    }
+
+
+
+    var exports = {
+        name: 'Singleton',
+
+        getInstance: function (args) {
+            if (instance === undefined) {
+                instance = new Singleton(args);
+            }
+            return instance;
+        }
+    };
+    return exports;
+})();
+
+var singletonTest = Singleton.getInstance({ age: 5 });
+
+console.log(singletonTest.age); 
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+h<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var obj = {};
+
+obj.fn = function () {
+    console.log('fn');
+}
+
+obj.fn1 = function () {
+    console.log('fn1');
+}
+        
+obj.factory = function (type) {
+    return new obj[type];
+}
+
+var fa1 = obj.factory('fn');
+var fa2 = obj.factory('fn1');
+
+
+</script>
+</body>
+</html>

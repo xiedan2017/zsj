@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+(function () {
+
+    var Obj = {
+        fn1:function(id,model){
+            return "This fn1 is" + id + "," + model;
+        },
+        fn2:function(id,model){
+            return "This fn2 is" + id + "," + model;
+        },
+        fn3:function(id,model){
+            return "This fn3 is" + id + "," + model;
+        }
+    }
+
+    Obj.parseCMD = function(commad){
+
+        return Obj[commad.request](commad.id,commad.model);
+    }
+
+    var obj1 = Obj.parseCMD({request:'fn1',id:'1',model:'100'});
+    console.log(obj1);
+    var obj2 = Obj.parseCMD({request:'fn2',id:'2',model:'100'});
+    console.log(obj2);
+    
+})();
+</script>
+</body>
+</html>

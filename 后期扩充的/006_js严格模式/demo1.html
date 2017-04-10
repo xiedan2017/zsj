@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>use strict;</title>
+</head>
+<body>
+<script type="text/javascript">
+//'use strict';
+//1.启用后，直接报错了。
+// var a = 'abc';
+// a.length = 10;
+//2
+//var eval = function(){};
+//
+//3
+// var tc = function(a,b,b){console.log(a+b)}
+// tc(100,2,100)
+
+//4
+// var x = 101;
+// console.log(x)
+
+// for(var i =0,i<5,i++){console.log(i)}
+//5
+//function fn(){console.log(this)};
+//fn();
+//6
+//var y = 101;
+//delete y;
+//7
+var a = 1;
+eval('var a=10');
+console.log(a);
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		//JSON key-value
+		var Singleton = {
+			attr1:'attr1',
+			attr2:'attr2',
+			func1:function(){
+				console.log('func1')
+			}
+		}
+
+		var Singleton = {
+			attr1:'attr1',
+			attr2:'attr2',
+			attr3:'attr3',
+			func1:function(){
+				alert(this.attr1)
+			}
+		}
+
+		console.log(Singleton)
+
+
+	</script>
+</body>
+</html>

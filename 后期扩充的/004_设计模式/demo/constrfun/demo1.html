@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+function Person(age,name){
+	this.age = age;
+	this.name = name;
+	this.show = function(){
+		return this.age +this.name;
+	}
+}
+
+var p1 = new Person(101,'tc1');
+console.log(p1.show());
+var p2 = new Person(102,'tc2');
+console.log(p2.show())
+</script>
+</body>
+</html>
