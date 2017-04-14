@@ -24,7 +24,7 @@
       <file leaf-file-name="01_反例教程.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03_服务/01_反例教程.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-900">
+            <state relative-caret-position="-1050">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -190,12 +190,12 @@
       <updated>1491828997877</updated>
       <workItem from="1491828999125" duration="2389000" />
       <workItem from="1492133517565" duration="1057000" />
-      <workItem from="1492150713398" duration="2077000" />
+      <workItem from="1492150713398" duration="2295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5523000" />
+    <option name="totallyTimeSpent" value="5741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
@@ -542,7 +542,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03_服务/01_反例教程.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
+        <state relative-caret-position="-1050">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
