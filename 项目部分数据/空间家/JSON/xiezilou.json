@@ -1,0 +1,103 @@
+{
+	"data": [
+	
+		{
+			"name": "金盟大厦",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 6,
+			"img": "http://image.kongjianjia.com/Uploads//170210/589d32b7ab6ac.jpg",
+			"time":"1231223123"
+		},	{
+			"name": "国贸CBD",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 10,
+			"img": "http://image.kongjianjia.com/Uploads//161125/5837d0e74ab19.JPG",
+			"time":"124431231231"
+		},	{
+			"name": "龙旗广场",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 7,
+			"img": "http://image.kongjianjia.com/Uploads//170210/589d32b7ab6ac.jpg",
+			"time":"123231231231"
+		},	{
+			"name": "国贸CBD",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 5,
+			"img": "http://image.kongjianjia.com/Uploads//170112/58771c19ca579.JPG",
+			"time":"123132231231"
+		},	{
+			"name": "金盟大厦",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 4,
+			"img": "http://image.kongjianjia.com/Uploads//170117/587de0ab9b0bf.jpg",
+			"time":"411"
+		},	{
+			"name": "总部基地",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 1,
+			"img": "http://image.kongjianjia.com/Uploads//170210/589d5d15a2da8.jpg",
+			"time":"1231212331231"
+		},	{
+			"name": "国贸CBD",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 3,
+			"img": "http://image.kongjianjia.com/Uploads//170210/589d5d283d62b.jpg",
+			"time":"123121222331231"
+			
+		},	{
+			"name": "望京",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 2,
+			"img": "http://image.kongjianjia.com/Uploads//559e2c59abf1e.png",
+			"time":"1231212334441231"
+		},	{
+			"name": "国贸CBD",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 8,
+			"img": "http://image.kongjianjia.com/Uploads//161115/582ad3960f12a.JPG",
+			"time":"12312131231"
+		},	{
+			"name": "SOHO",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 11,
+			"img": "http://image.kongjianjia.com/Uploads//161115/582ad3960f12a.JPG",
+			"time":"123121231"
+		},	{
+			"name": "金盟大厦",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 13,
+			"img": "http://image.kongjianjia.com/Uploads//161115/582ad3960f12a.JPG",
+			"time":"1231212334141231"
+		},	{
+			"name": "金盟大厦",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 12,
+			"img": "http://image.kongjianjia.com/Uploads//161115/582ad3960f12a.JPG",
+			"time":"1231212222331231"
+		},	{
+			"name": "金盟大厦",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 14,
+			"img": "http://image.kongjianjia.com/Uploads//161115/582ad3960f12a.JPG",
+			"time":"111111"
+		},	{
+			"name": "金盟大厦",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 16,
+			"img": "http://image.kongjianjia.com/Uploads//161115/582ad3960f12a.JPG",
+			"time":"1231212333331231"
+		},	{
+			"name": "金盟大厦",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 15,
+			"img": "http://image.kongjianjia.com/Uploads//161115/582ad3960f12a.JPG",
+			"time":"444444"
+		},	{
+			"name": "金盟大厦",
+			"ulr": "http://bj.kongjianjia.com/xiezilou/186267",
+			"sale": 11,
+			"img": "http://image.kongjianjia.com/Uploads//161115/582ad3960f12a.JPG",
+			"time":"11131231"
+		}
+	]
+}

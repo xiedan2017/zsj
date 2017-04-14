@@ -1,0 +1,309 @@
+{
+"code": 1000,
+"data": {
+"banner_ads": [
+{
+"pic": "//s2.juancdn.com/bao/161209/f/2/584a88efdb01d9de0d8b4610_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+"url": "http://m.juanpi.com/act/sub_pinzhidp12?mjuanpi_wx=1",
+"id": "5384",
+"size": "750*290",
+"title": "1211居家馆-双12开售"
+},
+{
+"pic": "//s2.juancdn.com/bao/161208/3/0/58492fd8151ad1ab198b45e6_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+"url": "https://m.juanpi.com/zhuanti/hdbb?mjuanpi_wx=1",
+"id": "5381",
+"size": "750*290",
+"title": "1211居家馆-寒冬必备"
+},
+{
+"pic": "//s2.juancdn.com/bao/161209/1/7/584a8878151ad1cd7a8b45f6_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+"url": "http://m.juanpi.com/shop/22407822",
+"id": "5383",
+"size": "750*290",
+"title": "1211居家馆-单品菜板"
+},
+{
+"pic": "//s2.juancdn.com/bao/161209/b/9/584a87da151ad12b7b8b45db_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+"url": "https://m.juanpi.com/zhuanti/rcmj?mjuanpi_wx=1",
+"id": "5382",
+"size": "750*290",
+"title": "1211居家馆-美家达人攻略"
+}
+],
+"module_ads": {
+"block_id": "208",
+"multi_block": [
+{
+"show_type": 1,
+"block_type": 2,
+"split_line": "0",
+"margin_enabled": 0,
+"data": [
+{
+"width": 1,
+"triangle": 0,
+"height": 0.1067,
+"child": [
+{
+"pic": "http://s2.juancdn.com/bao/161031/2/e/581728e4db01d932758b458d_750x80.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "",
+"layout": "col",
+"width": 1,
+"height": 1,
+"countdown": {
+"enable_time": "0",
+"start_time": "",
+"end_time": "",
+"start_text": "",
+"end_text": ""
+},
+"bd_id": "3689",
+"x_record": "1_1",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1644::img_id::3689::1_1\",\"cid\":\"\",\"_t\":1481592712}"
+}
+]
+}
+]
+},
+{
+"show_type": 3,
+"block_type": 10,
+"split_line": "0",
+"margin_enabled": 0,
+"data": [
+{
+"child": [
+{
+"pic": "http://s2.juancdn.com/bao/161121/8/7/58324a7fdb01d9377d8b45da_150x196.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "http://m.juanpi.com/cate/22",
+"bd_id": "3575",
+"width": 0.2,
+"height": 1,
+"x_record": "2_1",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1598::img_id::3575::2_1\",\"cid\":\"\",\"_t\":1481592712}"
+},
+{
+"pic": "http://s2.juancdn.com/bao/161121/e/6/58324a83151ad133208b4597_150x196.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "http://m.juanpi.com/cate/19",
+"bd_id": "3576",
+"width": 0.2,
+"height": 1,
+"x_record": "2_2",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1598::img_id::3576::2_2\",\"cid\":\"\",\"_t\":1481592712}"
+},
+{
+"pic": "http://s2.juancdn.com/bao/161121/a/1/58324d3f151ad1f9218b45a2_150x196.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "http://m.juanpi.com/cate/21",
+"bd_id": "3577",
+"width": 0.2,
+"height": 1,
+"x_record": "2_3",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1598::img_id::3577::2_3\",\"cid\":\"\",\"_t\":1481592712}"
+},
+{
+"pic": "http://s2.juancdn.com/bao/161121/3/1/58324d42db01d9337d8b45ec_150x196.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "http://m.juanpi.com/cate/20",
+"bd_id": "3578",
+"width": 0.2,
+"height": 1,
+"x_record": "2_4",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1598::img_id::3578::2_4\",\"cid\":\"\",\"_t\":1481592712}"
+},
+{
+"pic": "http://s2.juancdn.com/bao/161121/f/3/58324d48db01d9ef7b8b45e3_150x196.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "http://m.juanpi.com/cate/23",
+"bd_id": "3579",
+"width": 0.2,
+"height": 1,
+"x_record": "2_5",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1598::img_id::3579::2_5\",\"cid\":\"\",\"_t\":1481592712}"
+}
+],
+"countnum": 5,
+"shownum": 5
+}
+]
+},
+{
+"show_type": 1,
+"block_type": 2,
+"split_line": "0",
+"margin_enabled": 4,
+"data": [
+{
+"width": 1,
+"triangle": 0,
+"height": 0.304,
+"child": [
+{
+"pic": "http://s2.juancdn.com/bao/161209/9/e/584a8b1cdb01d9f8058b4618_750x228.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "http://m.juanpi.com/act/sub_pinzhidp12?mjuanpi_wx=1",
+"layout": "col",
+"width": 1,
+"height": 1,
+"countdown": {
+"enable_time": "0",
+"start_time": "",
+"end_time": "",
+"start_text": "",
+"end_text": ""
+},
+"bd_id": "4698",
+"x_record": "3_1",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::2046::img_id::4698::3_1\",\"cid\":\"\",\"_t\":1481592712}"
+}
+]
+}
+]
+},
+{
+"show_type": 1,
+"block_type": 4,
+"split_line": "1",
+"margin_enabled": 0,
+"data": [
+{
+"width": 1,
+"triangle": 0,
+"height": 0.608,
+"child": [
+{
+"pic": "http://s2.juancdn.com/bao/161209/4/8/584a8ee5151ad1a61c8b4591_375x456.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "http://m.juanpi.com/zhuanti/zyjhbk?mjuanpi_wx=1",
+"layout": "col",
+"width": 0.5,
+"height": 1,
+"countdown": {
+"enable_time": "0",
+"start_time": "",
+"end_time": "",
+"start_text": "",
+"end_text": ""
+},
+"bd_id": "4019",
+"x_record": "4_1",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1794::img_id::4019::4_1\",\"cid\":\"\",\"_t\":1481592712}"
+},
+{
+"pic": "http://s2.juancdn.com/bao/161209/f/9/584a4994151ad1c6038b45ae_375x228.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "https://m.juanpi.com/zhuanti/zyndzjl?mjuanpi_wx=1",
+"layout": "row",
+"width": 0.5,
+"height": 0.5,
+"countdown": {
+"enable_time": "0",
+"start_time": "",
+"end_time": "",
+"start_text": "",
+"end_text": ""
+},
+"bd_id": "4020",
+"similar": 2,
+"x_record": "4_2",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1794::img_id::4020::4_2\",\"cid\":\"\",\"_t\":1481592712}"
+},
+{
+"pic": "http://s2.juancdn.com/bao/161209/9/2/584a499d151ad1387e8b45b4_375x228.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "https://m.juanpi.com/zhuanti/zybj?mjuanpi_wx=1",
+"layout": "row",
+"width": 0.5,
+"height": 0.5,
+"countdown": {
+"enable_time": "0",
+"start_time": "",
+"end_time": "",
+"start_text": "",
+"end_text": ""
+},
+"bd_id": "4021",
+"similar": 2,
+"x_record": "4_3",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::1794::img_id::4021::4_3\",\"cid\":\"\",\"_t\":1481592712}"
+}
+]
+}
+]
+},
+{
+"show_type": 1,
+"block_type": 2,
+"split_line": "0",
+"margin_enabled": 4,
+"data": [
+{
+"width": 1,
+"triangle": 0,
+"height": 0.48,
+"child": [
+{
+"pic": "http://s2.juancdn.com/bao/161209/b/d/584a8aa2151ad1a51c8b4579_750x360.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "http://m.juanpi.com/act/sub_pinzhidp12?mjuanpi_wx=1",
+"layout": "col",
+"width": 1,
+"height": 1,
+"countdown": {
+"enable_time": "0",
+"start_time": "",
+"end_time": "",
+"start_text": "",
+"end_text": ""
+},
+"bd_id": "4697",
+"x_record": "5_1",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::2045::img_id::4697::5_1\",\"cid\":\"\",\"_t\":1481592712}"
+}
+]
+}
+]
+},
+{
+"show_type": 1,
+"block_type": 1,
+"split_line": "0",
+"margin_enabled": 0,
+"data": [
+{
+"width": 1,
+"triangle": 0,
+"height": 0.12,
+"child": [
+{
+"pic": "http://s2.juancdn.com/bao/160914/5/7/57d919dd151ad13b3b8b45dc_750x90.jpg?iopcmd=convert&Q=88&dst=jpg",
+"url": "",
+"layout": "col",
+"width": 1,
+"height": 1,
+"countdown": {
+"enable_time": "0",
+"start_time": "",
+"end_time": "",
+"start_text": "",
+"end_text": ""
+},
+"bd_id": "45",
+"x_record": "6_1",
+"activityname": "click_cube_block",
+"server_jsonstr": "{\"pit_info\":\"ad_id::208::block_id::529::img_id::45::6_1\",\"cid\":\"\",\"_t\":1481592712}"
+}
+]
+}
+]
+}
+],
+"block_background_color": "",
+"block_background_image": ""
+}
+}
+}

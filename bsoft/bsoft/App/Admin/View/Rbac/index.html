@@ -1,0 +1,79 @@
+<include file="Common:header"/>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">RBAC权限管理</a></li>
+		<li><a href="#">用户管理</a></li>
+	</ul>
+</div>
+<div class="rightinfo">  
+	<div class="tools">
+		<ul class="seachform">
+			<li><label>综合查询</label><input name="key" type="text" class="scinput"style="width:200px;"/></li>
+			<li><label>&nbsp;</label><input type="button" class="scbtn" value="查询" onclick="Search()"/></li>
+			<li onclick="update(this)" src="{:U(MODULE_NAME.'/Rbac/addUser')}" class="toolbar"><span><img src="__PUBLIC__/Images/t01.png" /></span>添加</li> 	            
+		</ul>
+	</div>    
+</div>
+<table class="tablelist">
+	<tr>
+		<th width="2%">&nbsp;</th>
+		<th width="5%">ID</th>
+		<th width="10%">用户名称</th>
+		<th width="10%">上一次登录时间</th>
+		<th width="8%">上次登录IP</th>
+		<th width="8%">锁定状态</th>
+		<th width="20%">用户所属组别</th>
+		<th>操作</th>
+	</tr>
+	<foreach name='admin' item = 'v'>
+		<tr>
+			<td><input name="ck" type="checkbox" value="" /></td>
+			<td>{$v.id}</td>
+			<td>{$v.name}</td>
+			<td>{$v.logintime}</td>
+			<td>{$v.loginip}</td>
+			<td><if condition="$v['lock']">锁定<else/>开启</if></td>
+			<td>
+				<if condition='$v["name"] eq C("RBAC_SUPERADMIN")'>
+					超级管理员
+					<else/>
+					<ul>
+						<foreach name ='v.role' item='value'>
+							<li style="float:left;margin-right:6px;">{$value.name}({$value.remark})</li>
+						</foreach>
+					</ul>
+				</if>
+			</td>
+			<if condition='$v["name"] eq C("RBAC_SUPERADMIN")'>
+				<td>我超级，我牛逼</td>
+				<else/>
+				<td class="caozuo">
+					<li onclick="update(this)" src="{:U(MODULE_NAME.'/Rbac/lock',array('pid'=> $v['id']))}">
+						<if condition="$v['lock']">
+							<img src="__PUBLIC__/Images/lock.png"/>开启
+						<else/>
+							<img src="__PUBLIC__/Images/unlock.png"/>锁定
+						</if>
+					</li>
+					<li onclick="del(this)" src="{:U(MODULE_NAME.'/Rbac/delete',array('del'=> $v['id']))}"><img src="__PUBLIC__/Images/close1.png"/>删除</li>
+				</td>
+			</if>
+		</tr>
+	</foreach>   
+</table>
+<div class="tip">
+	<div class="tiptop"><span>提示信息</span><a></a></div>
+	<div class="tipinfo">
+		<span><img src="__PUBLIC__/Images/ticon.png" /></span>
+		<div class="tipright">
+			<p>是否确认对该信息删除吗 ？</p>
+			<cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+		</div>
+	</div>
+	<div class="tipbtn">
+		<input type="button"  class="sure" value="确定删除" />&nbsp;
+		<input type="button"  class="cancel" value="取消" />
+	</div>
+</div>
+<include file="Common:footer"/>

@@ -1,0 +1,174 @@
+{
+    "code": 1000,
+    "data": {
+        "banner_ads": [
+            {
+                "pic": "//s2.juancdn.com/bao/161206/c/7/5846177c151ad1292b8b45d8_750x290.png?iopcmd=convert&Q=80&dst=png",
+                "url": "http://m.juanpi.com/act/sub_haitao12?showgoodstime=c8ff45c9ccec87ca203ef645800a4705&mjuanpi_wx=1",
+                "id": "5317",
+                "size": "750*290",
+                "title": "12.11 海淘-双12开售 5"
+
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/161209/c/a/584a1e5e151ad122218b45b0_750x290.png?iopcmd=convert&Q=80&dst=png",
+                "url": "https://m.juanpi.com/zhuanti/zjjpqd?mjuanpi_wx=1",
+                "id": "5358",
+                "size": "750*290",
+                "title": "12.10 海淘 - 零食专场 4"
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/161206/0/4/58465962151ad1be768b456a_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "http://m.juanpi.com/brand/1034580?shop_id=1590948",
+                "id": "5142",
+                "size": "750*290",
+                "title": "12.10 海淘-伊思 3"
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/161206/6/b/584666a5151ad1d9128b4578_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "http://m.juanpi.com/brand/1751457?shop_id=1701944",
+                "id": "5194",
+                "size": "750*290",
+                "title": "12.11 海淘-施巴 2"
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/161104/e/2/581c6368db01d91c2f8b4623_750x290.png?iopcmd=convert&Q=80&dst=png",
+                "url": "https://m.juanpi.com/zhuanti/qqgld?mjuanpi_wx=1",
+                "id": "591",
+                "size": "750*290",
+                "title": "全球购banner"
+            }
+        ],
+        "module_ads": {
+            "block_id": "229",
+            "multi_block": [
+                {
+                    "show_type": 1,
+                    "block_type": 6,
+                    "split_line": "0",
+                    "margin_enabled": 0,
+                    "data": [
+                        {
+                            "width": 1,
+                            "triangle": 0,
+                            "height": 0.275,
+                            "child": [
+                                {
+                                    "sref": "global-baby",
+                                    "pic": "http://s2.juancdn.com/bao/161208/3/2/58493268151ad1831b8b45d8_200x220.png?iopcmd=convert&Q=88&dst=png",
+                                    "url": "http://m.juanpi.com/cate/399",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "2467",
+                                    "x_record": "1_1",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::1144::img_id::2467::1_1\",\"cid\":\"\",\"_t\":1481547790}"
+                                },
+                                {
+                                    "sref": "global-beauty",
+                                    "pic": "http://s2.juancdn.com/bao/161208/1/1/5849326edb01d934048b4593_200x220.png?iopcmd=convert&Q=88&dst=png",
+                                    "url": "http://m.juanpi.com/cate/400",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "2468",
+                                    "x_record": "1_2",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::1144::img_id::2468::1_2\",\"cid\":\"\",\"_t\":1481547790}"
+                                },
+                                {
+                                    "sref": "global-food",
+                                    "pic": "http://s2.juancdn.com/bao/161208/a/5/58493272db01d9ff788b45c1_200x220.png?iopcmd=convert&Q=88&dst=png",
+                                    "url": "http://m.juanpi.com/cate/402",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "2469",
+                                    "x_record": "1_3",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::1144::img_id::2469::1_3\",\"cid\":\"\",\"_t\":1481547790}"
+                                },
+                                {
+                                    "sref": "global-healthCare",
+                                    "pic": "http://s2.juancdn.com/bao/161208/3/0/58493276151ad1b4328b456a_200x220.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/401",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "2470",
+                                    "x_record": "1_4",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::1144::img_id::2470::1_4\",\"cid\":\"\",\"_t\":1481547790}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "show_type": 1,
+                    "block_type": 2,
+                    "split_line": "0",
+                    "margin_enabled": 0,
+                    "data": [
+                        {
+                            "width": 1,
+                            "triangle": 0,
+                            "height": 0.304,
+                            "child": [
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161206/9/f/58462039db01d9a9258b45f6_750x228.png?iopcmd=convert&Q=88&dst=png",
+                                    "url": "http://m.juanpi.com/act/sub_haitao12?showgoodstime=c8ff45c9ccec87ca203ef645800a4705&mjuanpi_wx=1",
+                                    "layout": "col",
+                                    "width": 1,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": "0",
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": "",
+                                        "end_text": ""
+                                    },
+                                    "bd_id": "4683",
+                                    "x_record": "2_1",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::229::block_id::2035::img_id::4683::2_1\",\"cid\":\"\",\"_t\":1481547790}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "block_background_color": "",
+            "block_background_image": ""
+        }
+    }
+}

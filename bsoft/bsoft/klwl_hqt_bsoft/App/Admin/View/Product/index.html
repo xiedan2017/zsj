@@ -1,0 +1,74 @@
+<include file="Common:header"/>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">内容管理</a></li>
+		<li><a href="#">产品管理</a></li>
+	</ul>
+</div>
+<div class="rightinfo">  
+	<div class="tools">
+		<ul class="seachform">
+			<li><label>综合查询</label><input name="key" type="text" class="scinput"style="width:200px;"/></li>
+			<li><label>&nbsp;</label><input type="button" class="scbtn" value="查询"/></li>
+			<li onclick="update(this)" src="{:U(MODULE_NAME.'/Product/edit')}" class="toolbar"><span><img src="__PUBLIC__/Images/t01.png" /></span>添加</li>
+		</ul>
+	</div>    
+</div>
+<form action="{:U(MODULE_NAME.'/Product/deleteall')}" method="post">
+	<table class="tablelist">
+		<tr>
+			<th width="2%">&nbsp;</th>
+			<th width="5%">序 号</th>
+			<th width="10%">页面名称</th>
+			<th width="10%">所属主菜单</th>
+			<th width="15%">添加时间</th>
+			<th width="5%">状态</th>
+			<th width="5%">排 序</th>
+			<th>操 作</th>
+		</tr>
+		<foreach name='data' item = 'v'>
+			<tr>
+				<td><input type="checkbox" name="{$v.id}" value="{$v.id}" /></td>
+				<td>{$v.id}</td>
+				<td>{$v.name}</td>
+				<td>{$v.catename}</td>
+				<td>{$v.time|date="Y-m-d h:i:s",###}</td>
+				<if condition="$v['status']==0">
+					<td class="green">显 示</td>
+					<else/>
+					<td class="red">隐 藏</td>
+				</if>
+				<td><label>{$v.sort}</label></td>
+				<td class="caozuo">
+					<li onclick="update(this)" src="{:U(MODULE_NAME.'/Product/edit',array('id'=>$v['id']))}"><img src="__PUBLIC__/Images/t02.png"/>修改</li>
+					<li onclick="del(this)" src="{:U(MODULE_NAME.'/Product/delete',array('del'=>$v['id']))}"><img src="__PUBLIC__/Images/close1.png"/>删除</li>
+				</td>
+			</tr>
+		</foreach> 
+		<tr style="height: 60px">
+			<td colspan="3">
+				<input type="button" value="全选" id="selectAll" class="btn btnselect"/>
+				<input type="button" value="不选" id= "unSelect" class="btn btnselect"/>
+				<input type="button" value="反选" id="reverse" class="btn btnselect"/>
+			</td>
+			<td colspan="4" align="center"><div class="page">{$page}</div></td>
+			<td align="right"><input type="submit" value="批量删除" class="btn del" style="float: right;margin-right: 20px;" /></td>
+		</tr> 
+	</table>
+</form>
+<div class="tip">
+	<div class="tiptop"><span>提示信息</span><a></a></div>
+	<div class="tipinfo">
+		<span><img src="__PUBLIC__/Images/ticon.png" /></span>
+		<div class="tipright">
+			<p>是否确认对该信息删除吗 ？</p>
+			<cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+		</div>
+	</div>
+	<div class="tipbtn">
+		<input type="button"  class="sure" value="确定删除" />&nbsp;
+		<input type="button"  class="cancel" value="取消" />
+	</div>
+</div>
+<include file="Common:footer"/>

@@ -1,0 +1,44 @@
+{
+    "listNum": 7,
+    "liveList": [],
+    "govodList": [
+        {
+            "courseId": 46155,
+            "courseName": "原来\"会计\"这么有趣",
+            "dataTime": "09:45-11:30"
+        },
+        {
+            "courseId": 46152,
+            "courseName": "会计上岗重难点点播",
+            "dataTime": "12:30-13:30"
+        },
+        {
+            "courseId": 46154,
+            "courseName": "没想到你是这种会计总论",
+            "dataTime": "14:10-15:20"
+        },
+        {
+            "courseId": 46156,
+            "courseName": "我的会计我做主",
+            "dataTime": "15:40-16:40"
+        },
+        {
+            "courseId": 46158,
+            "courseName": "会计从业取证三大秘诀",
+            "dataTime": "17:00-17:40"
+        }
+    ],
+    "futureList": [
+        {
+            "courseId": 46153,
+            "courseName": "30天以后，我是一名会计师",
+            "dataTime": "18:50-20:20"
+        },
+        {
+            "courseId": 46157,
+            "courseName": "打开会计新世界的大门",
+            "dataTime": "20:40-21:50"
+        }
+    ],
+    "status": "200"
+}

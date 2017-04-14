@@ -1,0 +1,67 @@
+<include file="Common:header"/>
+<js file="__PUBLIC__/Js/common/jquery.validate.min.js"/>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">企业管理</a></li>
+		<li><a href="#">邮件管理</a></li>
+		<li><a href="#">发送邮件</a></li>
+	</ul>
+</div>
+<div class="formbody">
+	<div class="formtitle"><span>发送邮件</span></div>
+	<form action="{:U(MODULE_NAME.'/SendEmail/SendEmailHandle')}" method="post" id="form">
+		<ul class="forminfo">
+		    <li><label>收件人姓名：</label><input name="name" type="text" class="dfinput" /></li>
+		    <li><label>收件人邮箱：</label><input name="send" type="email" class="dfinput" /></li>
+
+			<li><label>邮件标题：</label><textarea name="title" class="textarea">{$data.title}</textarea></li>
+			<li><label>邮件内容：</label><textarea name="content" class="textarea" style="width: 508px; height: 250px;margin-top: 10px;">{$data.content}</textarea></li>
+			<li style="margin-top: 20px;float: left"><label>&nbsp;</label>
+				<input type="submit" class="btn" value="确认保存"/> 
+				<input type="button" class="btn" onclick="window.history.back(-1);" value="返回"/>
+			</li>
+		</ul>
+	</form>
+</div>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      name: {
+		        required:true,
+		        rangelength:[2,10], //输入字符范围
+		      },
+		      send: {
+		        required: true,
+		        email: true,
+		      },
+		      title: {
+		        required: true,
+		        rangelength:[2,50], //输入字符范围
+		      },
+		      content: {
+		        required: true,
+		      }
+		    },
+		    messages: {
+		      name: {
+		        required: "收件人姓名不能为空",
+		        rangelength:'请输入2-10之间的字符',
+		      },
+		       send: {
+		        required: "收件人邮箱不能为空",
+		        email: "请输入合法的邮箱",
+		      },
+		      title: {
+		        required: "邮件标题不能为空",
+		        rangelength: "邮件长度不能小于[2,50]个字符",
+		      },
+		      content: {
+		        required: "邮件内容不能为空",
+		      },
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

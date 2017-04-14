@@ -1,0 +1,46 @@
+<include file="Common:header"/>
+<style type="text/css">
+	.tdleft{text-align: left; }
+	.tdright{text-align: right; width:85px}
+	.editor {
+		padding: 5px 5px 15px 20px;
+	}
+	.forminfo li span{
+		width: 500px;
+		line-height: 34px;
+		display: block;
+		float: left;
+	}
+	.forminfo li div{
+		width: 500px;
+		line-height: 34px;
+		display: block;
+		float: left;
+	}
+</style>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">内容管理</a></li>
+		<li><a href="#">留言管理</a></li>
+		<li><a href="#">{$data.name}的留言详情</a></li>
+		<li><a href="javascript:history.back();" >返回</a></li>
+	</ul>
+</div>
+<div class="formbody">
+	<ul class="forminfo">
+		<li><h3 style="font-size:16px">{$data.name}的留言详情</h3></li>
+		<li><label>留言人姓名：</label><span>{$data.name}</span></li>
+		<li><label>留言人时间：</label><span>{$data.time|date='Y-m-d h:i:s',###}</span></li>
+		<li><label>联系人电话：</label><span>{$data.phone}</span></li>
+		<li><label>联系人邮箱：</label><span>{$data.email}</span></li>
+		<li><label >IP地址：</label><span>{$data.ip}</span></li>
+		<li><label>留言内容：</label><div>{$data.content}</div></li>
+		<p style="border: 2px solid; border-color: #3c95c8; width: 300px;"><p/>
+		<li><label>回复管理员：</label><div>{$data.admin}</div></li>
+		<li><label>回复时间：</label><div>{$data.copytime|date="Y年m月d日 h:i:s",###}</div></li>
+		<li><label>回复内容：</label><label style="padding: 15px; width:700px; background-color:#f2f2f2;margin-bottom:20px">{$data.content}</label></li>
+		<li><label>&nbsp;</label><input type="button" onclick="javascript:history.back();" class="btn" value="返回"/></li>
+	</ul>
+</div>
+<include file="Common:footer"/>

@@ -1,0 +1,79 @@
+<include file="Common:header"/>
+<js file="__PUBLIC__/Js/common/jquery.validate.min.js"/>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">企业管理</a></li>
+		<li><a href="#">客服管理</a></li>
+		<li><a href="javascript:history.back();">客服信息<if condition="$data['id']">修改<else/>添加</if></a></li>
+	</ul>
+</div>
+<div class="formbody">
+	<div class="formtitle"><span><if condition="$data['id']==null">添加<else/>修改</if>客服信息</span></div>
+	<form action="{:U(MODULE_NAME.'/Service/serviceHandle',array('id'=>$data['id']))}" method="post" id="form">
+		<ul class="forminfo">
+			<li><label>客服姓名：</label><input name="name" type="text" value="{$data.name}" class="dfinput"/></li>
+			<li><label>描 述：</label><input name="title" type="text" value="{$data.title}" class="dfinput"/></li>
+			<li><label>服务号：</label><input name="servicenum" type="text" value="{$data.servicenum}" class="dfinput"/></li>
+			<li><label>客服QQ：</label><input name="qq" type="text" value="{$data.qq}" class="dfinput" /></li>
+			<li><label>客服电话：</label><input name="phone" type="phone" value="{$data.phone}" class="dfinput" /></li>
+			<li><label>&nbsp;</label>
+				<input type="submit" class="btn" value="确认保存"/>
+				<input type="button" class="btn" onclick="window.history.back(-1);" value="返回"/>
+			</li>
+		</ul>
+	</form>
+</div>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      name: {
+		        required:true,
+		        rangelength:[2,10], //输入字符范围
+		      },
+		      title: {
+		        required: true,
+		        rangelength:[2,50], //输入字符范围
+		      },
+		      servicenum: {
+		        required: true,
+		        digits: true,
+		      },
+		      qq: {
+		        required: true,
+		        digits: true,
+		      },
+		      phone: {
+		        required: true,
+		        digits:true,
+		        minlength:11,
+		      },
+		    },
+		    messages: {
+		      name: {
+		        required: "客服名不能为空",
+		        rangelength:'请输入2-10之间的字符',
+		      },
+		      title: {
+		        required: "描述不能为空",
+		        rangelength: "描述长度不能小于[2,50]个字符",
+		      },
+		      servicenum: {
+		        required: "服务号不能为空",
+		        digits: "必须为正整数",
+		      },
+		      qq: {
+		        required: "QQ号不能为空",
+		        digits: "必须为正整数",
+		      },
+		      phone: {
+		        required: "客服电话不能为空",
+		        digits:"必须为正整数",
+		        minlength:"必须是输入合法的手机号"
+		      },
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

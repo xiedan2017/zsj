@@ -1,0 +1,438 @@
+[ 2016-12-14T16:12:14+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-12-14T16:14:52+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-12-14T16:15:47+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network` LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station` LIMIT 2   [ RunTime:0.0000s ]
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+
+[ 2016-12-14T16:16:03+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network` LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station` LIMIT 2   [ RunTime:0.0000s ]
+
+[ 2016-12-14T16:19:13+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0000s ]
+
+[ 2016-12-14T16:19:35+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0000s ]
+
+[ 2016-12-14T16:30:05+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+
+[ 2016-12-14T16:30:23+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0000s ]
+
+[ 2016-12-14T16:31:37+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+
+[ 2016-12-14T16:31:42+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+
+[ 2016-12-14T16:35:14+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: kecheng D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 19 行.
+
+[ 2016-12-14T16:36:33+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+NOTIC: [8] Undefined index: title D:\PHPstudy\WWW\bsoft\App\Index\Controller\CommonController.class.php 第 22 行.
+
+[ 2016-12-14T16:37:01+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+
+[ 2016-12-14T16:38:12+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0000s ]
+
+[ 2016-12-14T16:38:44+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+
+[ 2016-12-14T16:40:32+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0000s ]
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-12-14T16:42:43+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-12-14T16:42:46+08:00 ] 127.0.0.1 /bsoft/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-12-14T16:42:52+08:00 ] 127.0.0.1 /bsoft/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0010s ]
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-12-14T16:44:59+08:00 ] 127.0.0.1 /bsoft/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sys_network` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sys_network`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `network_station` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `network_station`  [ RunTime:0.0000s ]
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+ERR: 1146:Table 'ugainian.productcate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productcate`
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\PHPstudy\WWW\bsoft\ThinkPHP\Common\functions.php:850) D:\PHPstudy\WWW\bsoft\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2016-12-14T16:46:41+08:00 ] 127.0.0.1 /bsoft/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE `status` = 0 ORDER BY sort asc LIMIT 4   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `klwl_product` WHERE ( 1=1 AND cate='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_product` WHERE ( 1=1 AND cate='2' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_product` WHERE ( 1=1 AND cate='3' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_product` WHERE ( 1=1 AND cate='4' )  [ RunTime:0.0000s ]
+

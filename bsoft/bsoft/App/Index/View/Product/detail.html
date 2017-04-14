@@ -1,0 +1,78 @@
+﻿<include file="Common:header"/>
+<div class="atcker">
+    <div class="dhy1">
+        <ul>
+            <li>
+                <foreach name="leftmenu" item="vo">
+                    <if condition="$vo['name'] eq 新闻中心">
+                        <a href="{:U(MODULE_NAME.'/News/index',array('cate'=>$vo['id']))}" <if condition="$pid eq $vo['id']">style="color: red;" </if>> {$vo.name} </a>
+                    <else/>
+                        <a href="{:U(MODULE_NAME.'/Product/detail',array( 'cate'=>$vo['cate'],'pid'=>$vo['id']))}" <if condition="$pid eq $vo['id']">style="color: red;" </if>> {$vo.name} </a>
+                    </if>
+                </foreach>
+            </li>
+        </ul>
+    </div>
+    <div class="zuo">
+        <div class="tu"> <img src="{$productcate.pic|default='__PUBLIC__/images/1-151125114634439.jpg'}" width="926" height="170"/> </div>
+        <div class="dyzhengwen">
+            <div class="dyzhengwenzuo">
+                <div class="dingwei">
+                    <w class="p"> {$detail.name} </w>
+                    <br />
+                    <div>
+                        {$detail.content}
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="dyzhengwenyou">
+                <foreach name="red" item="v">
+                    <div class="hezuo">
+                        <h3>
+                            <a href="{:U(MODULE_NAME.'/Product/detail',array('cate'=>$v[cate],'pid'=>$v['id']))}"> {$v.name} </a>
+                        </h3>
+                        <ul class="ul1">
+                            {$v.title|subtext=31}
+                            <div style="clear:both;"> </div>
+                        </ul>
+                    </div>
+                </foreach>
+                <div class="hezuo">
+                    <h3> 请关注我们 </h3>
+                    <ul>
+                        <li> <img class="weixin" src="__PUBLIC__/images/bag10.png" width="19" height="18"/> </li>
+                        <li> <img src="__PUBLIC__/images/bag11.png" width="19" height="18" /> </li>
+                        <li> <img src="__PUBLIC__/images/bag12.png" width="19" height="18" /> </li>
+                    </ul>
+                </div>
+            </div>
+            <!--二维码-->
+            <div class="d_wx" style="display:none;background:white;width:250px;height:110px;position:absolute;z-index:10;left:1040px;top:500px;">
+                <img class="p_weixin" src="__PUBLIC__/images/weixin.jpg" alt="二维码" style="width:90px;height:90px;margin:10px 0 0 10px;">
+                <p style="font-family:'微软雅黑';font-size:12px; margin:-62px 0 0 120px;line-height:14px;">
+                    用微信扫描二维码
+                    <br />
+                    分享至好友和朋友圈
+                </p>
+            </div>
+            <script>
+                $(function() {
+                    $('.weixin').css('cursor', 'pointer');
+                    $('.weixin').mouseover(function() {
+                        $('.d_wx').css('display', 'block');
+                    });
+                    $('.weixin').mouseout(function() {
+                        $('.d_wx').css('display', 'none');
+                    });
+                    $('.wx_close').css('cursor', 'pointer');
+                    $('.wx_close').click(function() {
+                        $('.d_wx').css('display', 'none');
+                    });
+                });
+            </script>
+        </div>
+  </div>
+  <div style="clear:both"> </div>
+</div>
+<include file="Common:footer"/>

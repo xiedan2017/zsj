@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title> 广州碧软信息科技有限公司 </title>
+        <link href="__PUBLIC__/css/index.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="__PUBLIC__/js/jquery-1.9.1.min.js"/></script>
+    </head>
+    <body>
+        <div class="top">
+            <div class="topzhong"> <div class="lianxi"> <a href="{:U(MODULE_NAME.'/Contact/Index')}"> 联系我们 </a> </div></div>
+        </div>
+        <div class="log">
+            <div class="logo">
+                <a href="{$url}"> <img src="__PUBLIC__/images/logo1.png" width="134" height="43" /> </a>
+            </div>
+            <div class="dh">
+                <ul>
+                    <li> <a href="{:U(MODULE_NAME.'/Index/index')}"> 首页 </a> </li>
+                    <foreach name="menu" item="v">
+                        <li>
+                            <a href="{:U(MODULE_NAME.'/Product/detail',array('cate'=>$v['id'],'pid'=>$v['product'][0]['id']))}"> {$v.name} </a>
+                            <div class="erji-1">
+                                <foreach name="v.product" item="vo">
+                                    <if condition="$vo['name'] eq 新闻中心">
+                                        <div class="aa">
+                                            <a href="{:U(MODULE_NAME.'/News/index',array('cate'=>$vo['id']))}"> {$vo.name} </a>
+                                        </div>
+                                    <else/>
+                                        <div class="aa">
+                                            <a href="{:U(MODULE_NAME.'/Product/detail',array('cate'=>$vo['cate'],'pid'=>$vo['id']))}"> {$vo.name} </a>
+                                        </div>
+                                    </if>
+                                </foreach>
+                                <div style="clear:both"> </div>
+                            </div>
+                        </li>
+                    </foreach>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function() {
+                $('.dh > ul > li').hover(function() {
+                    $(this).find(".erji").slideDown("slow");
+                },
+                function() {
+                    $(this).find(".erji").slideUp("slow");
+                });
+
+                $('.erji > .aa').hover(function() {
+                    $(this).find(".sanji").slideDown("slow");
+                },
+                function() {
+                    $(this).find(".sanji").slideUp("slow");
+                });
+                $('.dh > ul > li').hover(function() {
+                    $(this).find(".erji-1").slideDown("slow");
+                },
+                function() {
+                    $(this).find(".erji-1").slideUp("slow");
+                });
+
+                $('.sanji > .sanji1').each(function() {
+                    $(this).find('a').eq(0).addClass("a1");
+                });
+
+            });
+        </script>

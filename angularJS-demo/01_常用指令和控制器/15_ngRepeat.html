@@ -30,6 +30,8 @@
 			</li>
 		</ul>
 		
+		<input type="button" ng-click="ctrl.add();"  value="添加一个人"/>
+		
 		<h1>遍历对象</h1>
 		<ul>
 			<!-- 遍历对象，对象有多少个属性，就会生成多少个li
@@ -67,6 +69,7 @@
 			</tr>
 		</table>
 		
+		
 			
 		
 		<script type="text/javascript">
@@ -76,6 +79,10 @@
 					
 					//普通数组
 					self.nameArr = ['达康书记', '达康书记', '育良书记', '陈海局长', '瑞金书记'];
+					
+					self.add = function () {
+						self.nameArr.push("亮屏同志");
+					}
 					
 					//对象
 					self.person = {

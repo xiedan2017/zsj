@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<js file="__PUBLIC__/Js/common/jquery.min.js"/>
+	<link rel="stylesheet" type="text/css"href="__PUBLIC__/Css/common/style.css" />
+	<link rel="stylesheet" href="__PUBLIC__/Css/index.css"/>         <!-- index页面所用 -->
+	<script type="text/javascript" src="__PUBLIC__/Js/index.js"></script>
+	<base target="iframe"/>
+	<title>后台管理</title>
+</head>
+<body>
+	<div style="background:url(__PUBLIC__/Images/topbg.gif) repeat-x; height:88px; min-width: 1040px">
+	    <div class="topleft">
+	       <img src="__PUBLIC__/Images/logo.png"/>
+	    </div>      
+	    <ul class="nav">
+			<li><a href="default.html" class="selected"><img src="__PUBLIC__/Images/icon01.png"/><h2>工作台</h2></a></li>
+			<li><a href="imgtable.html"><img src="__PUBLIC__/Images/icon02.png"/><h2>模型管理</h2></a></li>
+			<li><a href="imglist.html"><img src="__PUBLIC__/Images/icon03.png"/><h2>模块设计</h2></a></li>
+			<li><a href="tools.html"><img src="__PUBLIC__/Images/icon04.png"/><h2>常用工具</h2></a></li>
+			<li><a href="computer.html"><img src="__PUBLIC__/Images/icon05.png"/><h2>文件管理</h2></a></li>
+			<li><a href="tab.html"><img src="__PUBLIC__/Images/icon06.png" /><h2>系统设置</h2></a></li>
+	    </ul>
+	    <div class="topright">    
+			<ul>
+				<li><span><img src="__PUBLIC__/Images/help.png" class="helpimg"/></span><a href="{$technology}" target="_back">帮助</a></li>
+				<li><a href="{:U('Index/Index/index')}" target="_back">官网首页</a></li>
+				<li><a href="{:U(MODULE_NAME.'/Index/logout')}" target="_parent">退出系统</a></li>
+			</ul> 
+			<div class="user">
+				<span>{$data.username}</span>
+				<i>留言消息</i>
+				<a href="{:U(MODULE_NAME.'/Messages/index')}"><b>{$msg}</b></a>
+			</div>    
+	    </div>
+	</div>
+	<div id="left">
+		<div class="lefttop"><span></span>导&nbsp;&nbsp;航</div>
+		<dl class="leftmenu">
+			<foreach name = "menu" item="v">
+				<dd>
+					<div class='title'><span><img src='__ROOT__/{$v.pic}' width='16px' height='16px'/></span>{$v.name}</div>
+					<ul class='menuson'>
+						<foreach name = "v.child" item="vo">
+							<li><cite></cite><a href='{:U(MODULE_NAME."/".$vo['controller']."/".$vo['methods'])}'>{$vo.name}</a><i></i></li>
+						</foreach>
+					</ul>
+				</dd>
+			</foreach>
+			<dd>
+				<div class='title'><span><img src='__PUBLIC__/images/t05.png' width='16px' height='16px'/></span>系统管理</div>
+				<ul class='menuson'>
+					<li><cite></cite><a href='{:U(MODULE_NAME."/Menu/index")}'>菜单管理</a><i></i></li>
+				</ul>
+			</dd>
+			<dd>
+			<div class='title'><span><img src='__PUBLIC__/Images/i05.png' width='16px' height='16px'/></span>RBAC权限管理</div>
+				<ul class='menuson'>
+					<li><cite></cite><a href="{:U(MODULE_NAME.'/Rbac/index')}">用户管理</a><i></i></li>
+					<li><cite></cite><a href="{:U(MODULE_NAME.'/Rbac/role')}" >角色管理</a><i></i></li>
+					<li><cite></cite><a href="{:U(MODULE_NAME.'/Rbac/node')}">节点管理</a><i></i></li>
+				</ul>
+			</dd>
+		</dl>
+	</div>
+	<div id="right">
+		<iframe name="iframe" src="{:U(MODULE_NAME.'/Index/welcome','','html')}"></iframe>
+	</div>
+	<script>
+		function redirect_login(){
+		    location.href = "{:U(MODULE_NAME.'/Login/index')}";
+		}
+	</script>
+</body>
+</html>

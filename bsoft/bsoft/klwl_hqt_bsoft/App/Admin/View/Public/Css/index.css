@@ -1,0 +1,8 @@
+@import url("public.css");
+/**左侧**/
+#left{width:200px;float:left; overflow-x:hidden;
+	overflow-y:auto;border-right: solid 1px #dcdcdc; }
+#left dl{border-bottom:solid 1px #dcdcdc;padding-bottom: 15px;}
+#left dl dt{border-left: 8px solid #DD4B39;padding-left:10px; color:#DD4B39;margin-top:10px;}
+#left dl dd a{font-size:14px;padding:4px 0px;padding-left:18px;color:#43434F;display:block; }
+#right{float:left;overflow: hidden;}

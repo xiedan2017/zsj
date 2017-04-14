@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><br/>添加第3条数据<br/>

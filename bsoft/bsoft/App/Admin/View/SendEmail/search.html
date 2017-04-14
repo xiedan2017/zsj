@@ -1,0 +1,35 @@
+<include file="Common:header"/>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">功能管理</a></li>
+		<li><a href="#">邮件管理</a></li>
+		<li><a href="#">邮件详情</a></li>
+	</ul>
+</div>
+
+<div class="formbody">
+	<div class="formtitle"><span>{$data.name}充值详情</span></div>
+	<ul class="forminfo">
+		<li><label>收件人：</label><label>{$data.name}</label></li>
+		<li><label>邮箱：</label><label>{$data.send}</label></li>
+		<li><label>标题：</label><label>{$data.title}</label></li>
+		<li><label>发送时间：</label><label style="width:250px">{$data.time|date="Y-m-d h:i:s",###}</label></li>
+		<li><label>操作员：</label><label>{$data.admin|default=系统提醒发送}</label></li>
+		<li><label>充值状态：</label>
+		<if condition="$data['status'] eq 1" >
+			<span style="color: red;font-size: 15px">发送失败</span>
+		<elseif condition="$data['status'] eq 0"/>
+			<span style="color: green;font-size: 15px">发送成功</span>
+		<else/>
+			<span style="color: green;font-size: 15px">未知</span>
+		</if>
+		</li>
+		<li><label>邮件内容：</label><label style="padding: 15px; width:700px; background-color:#f2f2f2;margin-bottom:20px">{$data.content}</label></li>
+		
+		<li><label>&nbsp;</label>
+			<input type="button" class="btn" onclick="window.history.back(-1);" value="返回"/>
+		</li>
+	</ul>
+</div>
+<include file="Common:footer"/>

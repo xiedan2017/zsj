@@ -1,0 +1,109 @@
+<include file="Common:header"/>
+<style type="text/css">
+	 .avatar_uplpad_btn {
+	    background:  url("__PUBLIC__/Images/avatar_uplpad_btn.png") no-repeat scroll 0 0;
+	    display: inline-block;
+	    height: 30px;
+	    width: 82px;
+	}
+	.loading_bar{background: #f2f2f5 none repeat scroll 0 0;border-radius: 6px;display: inline-block;font-size: 0;height: 10px;overflow: hidden;text-align: left;width: 250px;}
+	.loading_bar em{background: #fa7d3c none repeat scroll 0 0;display: inline-block;height: 10px;vertical-align: top;}
+</style>
+<js file="__PUBLIC__/Js/common/jquery.validate.min.js"/>
+<script type="text/javascript">
+        window.UEDITOR_HOME_URL = '__PUBLIC__/Data/Ueditor/';
+        window.onload = function(){
+            //设置编辑器的宽度
+            window.UEDITOR_CONFIG.initialFrameWidth = 1000; 
+             //设置编辑器的高度
+            window.UEDITOR_CONFIG.initialFrameHeight = 400; 
+             //配置编辑器图片上传文件的路径
+            UE.getEditor('content');   //传入txtarea 的ID即可载入
+        }
+     </script>
+ <js file='__PUBLIC__/Data/Ueditor/ueditor.config.js'/>
+ <js file='__PUBLIC__/Data/Ueditor/ueditor.all.min.js'/>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">内容管理</a></li>
+		<li><a href="#">产品管理</a></li>
+		<li><a href="javascript:history.back();">产品管理<if condition="$data.id">编辑<else/>添加</if></a></li>
+	</ul>
+</div>
+<div class="formbody">
+	<div class="formtitle"><span><if condition="$data['id']==null">添加<else/>编辑</if>产品管理</span></div>
+	<form action="{:U(MODULE_NAME.'/Product/productHandle',array('id'=>$data['id']))}" method="post" id="form">
+		<ul class="forminfo">
+			<li><label>产品名称：</label><input name="name" type="text" value="{$data.name}" class="dfinput" /></li>
+			<li><label>所属分类：</label>
+				<select name="cate" class="select">
+				    <if condition="$data['cate'] neq null">
+						<option value="{$data.cate}">{$data.catename}</option>
+					</if>
+					 <foreach name='productcate' item = 'v'>
+						<option value="{$v.id}">{$v.name}</option>
+					 </foreach>
+				</select>
+			</li>
+			<li><label>产品描述：</label><input name="title" type="text" value="{$data.title}" class="dfinput" /></li>
+			<li><label>内容详情：</label><textarea name="content" id="content">{$data.content}</textarea></li>
+			<li><label>是否推荐</label>
+				<if condition="$data['red'] == 0 ">
+					<cite><input name="red" type="radio" value="0" checked="checked" />是&nbsp;&nbsp;&nbsp;&nbsp;<input name="red" type="radio" value="1" />否</cite>
+					<else/>
+					<cite><input name="red" type="radio" value="0" />是&nbsp;&nbsp;&nbsp;&nbsp;<input name="red" type="radio" value="1" checked="checked" />否</cite>
+				</if>
+			</li>
+			<li><label>是否显示</label>
+				<if condition="$data['status'] == 0 ">
+					<cite><input name="status" type="radio" value="0" checked="checked" />是&nbsp;&nbsp;&nbsp;&nbsp;<input name="status" type="radio" value="1" />否</cite>
+					<else/>
+					<cite><input name="status" type="radio" value="0" />是&nbsp;&nbsp;&nbsp;&nbsp;<input name="status" type="radio" value="1" checked="checked" />否</cite>
+				</if>
+			</li>
+			<li><label>排 序：</label>
+			      <input name="sort" type="text" value="{$data.sort}" class="dfinput" style="float: left;" />
+			</li>
+			<li><label>&nbsp;</label>
+				<input type="submit" class="btn" value="确认保存"/>
+				<input type="button" class="btn" onclick="window.history.back(-1);" value="返回"/>
+			</li>
+		</ul>
+	</form>
+</div>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      name: {
+		        required:true,
+		        rangelength:[3,10], //输入字符范围
+		      },
+		      title: {
+		        required: true,
+		        minlength: 5
+		      },
+		      sort: {
+		        required: true,
+		        digits:true
+		      },
+		    },
+		    messages: {
+		      name: {
+		        required: "用户名不能为空",
+		        rangelength:'请输入3-10之间的字符'
+		      },
+		      title: {
+		        required: "描述不能为空",
+		        minlength: "描述长度不能小于 5 个字符",
+		      },
+		      sort: {
+		        required: "排序不能为空",
+		        digits:"必须是正整数"
+		      },
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

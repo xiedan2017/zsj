@@ -1,0 +1,66 @@
+<include file="Common:header"/>
+<js file="__PUBLIC__/Js/common/jquery.validate.min.js"/>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">企业管理</a></li>
+		<li><a href="#">企业信息管理</a></li>
+		<li><a href="javascript:history.back();">企业信息<if condition="$data.id">编辑<else/>添加</if></a></li>
+	</ul>
+</div>
+<div class="formbody">
+	<div class="formtitle"><span><if condition="$data['id']==null">添加<else/>编辑</if>企业属性</span></div>
+	<form action="{:U(MODULE_NAME.'/Company/companyHandle',array('id'=>$data['id']))}" method="post" id="form">
+		<ul class="forminfo">
+			<li><label>属性名称：</label><input name="attr" type="text" value="{$data.attr}" class="dfinput" /></li>
+			<li><label>属性值：</label><input name="value" type="text" value="{$data.value}" class="dfinput" /></li>
+			<li><label>是否显示</label>
+				<if condition="$data['status'] == 1 ">
+					<cite><input name="status" type="radio" value="1" checked="checked" />是&nbsp;&nbsp;&nbsp;&nbsp;<input name="status" type="radio" value="0" />否</cite>
+				<else/>
+					<cite><input name="status" type="radio" value="1" />是&nbsp;&nbsp;&nbsp;&nbsp;<input name="status" type="radio" value="0" checked="checked" />否</cite>
+				</if>
+			</li>
+			<li><label>排 序：</label><input name="sort" type="text" value="{$data.sort}" class="dfinput" /></li>
+			<li><label>&nbsp;</label>
+				<input type="submit" class="btn" value="确认保存"/>
+				<input type="button" class="btn" onclick="window.history.back(-1);" value="返回"/>
+			</li>
+		</ul>
+	</form>
+</div>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      attr: {
+		        required:true,
+		        rangelength:[1,10], //输入字符范围
+		      },
+		      value: {
+		        required:true,
+		        rangelength:[1,50], //输入字符范围
+		      },
+		      sort: {
+		        required: true,
+		        digits:true
+		      }
+		    },
+		    messages: {
+		      attr: {
+		        required: "属性名称不能为空",
+		        rangelength:'请输入1-10之间的字符'
+		      },
+		       value: {
+		        required:"属性值不能为空",
+		        rangelength:"请输入1-50之间的字符", //输入字符范围
+		      },
+		      sort: {
+		        required: "排序不能为空",
+		        digits:"必须是正整数"
+		      }
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

@@ -1,0 +1,31 @@
+{
+  "datas":[
+    {"image":"http://mall.yzijie.com/wap/images/kd.png",
+      "descriptions":"我要代理"
+    },
+    {"image":"http://mall.yzijie.com/wap/images/dl.png",
+      "descriptions":"我要开店"
+    },
+    {"image":"http://mall.yzijie.com/wap/images/sj.png",
+      "descriptions":"椰生活"
+    },
+    {"image":"http://mall.yzijie.com/wap/images/cj.png",
+      "descriptions":"藏家入驻"
+    },
+    {"image":"http://mall.yzijie.com/wap/images/fl.png",
+      "descriptions":"昌平活动"
+    },
+    {"image":"http://mall.yzijie.com/wap/images/qd.png",
+      "descriptions":"惠农电商"
+    },
+    {"image":"http://mall.yzijie.com/wap/images/qg.png",
+      "descriptions":"会抽筋平"
+    },
+    {"image":"http://mall.yzijie.com/wap/images/kf.png",
+      "descriptions":"会员中心"
+    },
+    {"image":"http://mall.yzijie.com/wap/images/hy.png",
+      "descriptions":"帮助中心"
+    }
+  ]
+}

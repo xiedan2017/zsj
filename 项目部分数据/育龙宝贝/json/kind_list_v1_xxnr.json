@@ -1,0 +1,182 @@
+{
+  "code": 200,
+  "data": {
+    "goods_info": [
+      {
+        "id": "1010",
+        "discount": "9.8",
+        "name": "雅培妈妈喜康素300g",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=121",
+        "orprice": "75.00",
+        "price": "73.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1011",
+        "pid": "0",
+        "name": "合生元金装妈妈配方奶粉 900g",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=1559",
+        "orprice": "287.00",
+        "price": "286.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p2.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1012",
+        "pid": "0",
+        "name": "优美加维生素C含片（草莓味）120片",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=121",
+        "orprice": "98.00",
+        "price": "98.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p3.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1013",
+        "pid": "0",
+        "name": "优美加维生素C含片（桔子味）120片",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=1559",
+        "orprice": "98.00",
+        "price": "98.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p4.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1014",
+        "pid": "0",
+        "name": "【Friso gold 美素佳儿金装】荷兰原装进口孕妇妈妈奶粉0段900g",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=121",
+        "orprice": "198.00",
+        "price": "188.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p5.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1015",
+        "pid": "0",
+        "name": "福格森叶酸营养素软胶囊（送10片装孕妇维D3钙片）",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=1559",
+        "orprice": "98.00",
+        "price": "88.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p1.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1016",
+        "pid": "0",
+        "name": "智灵通蓓能益生菌粉固体饮料（孕育系列）6g*30袋",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=121",
+        "orprice": "298.00",
+        "price": "283.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p2.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1017",
+        "pid": "0",
+        "name": "优美加(YUEMMGI)优优铁红枣粉咀嚼片1.0g/片*100片 孕妇型红枣味",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=1559",
+        "orprice": "99.00",
+        "price": "99.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p3.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1018",
+        "pid": "0",
+        "name": "优美加 多种维生素矿物质片（孕妇型） 1.0g/片*60片",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=121",
+        "orprice": "118.00",
+        "price": "118.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p4.jpg"
+          }
+        ]
+      },
+      {
+        "id": "1019",
+        "pid": "0",
+        "name": "优美加 多种维生素矿物质片（孕妇型） 1.0g/片*60片",
+        "type": "1",
+        "wzurl": "http://www.ylbb365.com/appgoods/goods_detail?goodsid=1559",
+        "orprice": "118.00",
+        "price": "118.00",
+        "imgs" : [
+          {
+            "img" : "./img/kind_list_p5.jpg"
+          }
+        ]
+      }
+    ],
+    "refgoods":[
+      { 
+        "id": "1010",
+        "discount" : "9.7",
+        "img" : "./img/kind_list_p6.jpg",
+        "name" : "雅培妈妈喜康素300g",
+        "orprice" : "287.00",
+        "price" : "286.00"
+      },
+      { 
+        "id": "1012",
+        "discount" : "10.0",
+        "img" : "./img/kind_list_p2.jpg",
+        "name" : "合生元金装妈妈配方奶粉（孕妇及授乳妇女专用） 900g",
+        "orprice" : "198.00",
+        "price" : "188.00"
+      },
+      { 
+        "id": "1013",
+        "discount" : "9.5",
+        "img" : "./img/kind_list_p9.jpg",
+        "name" : "【Friso gold 美素佳儿金装】荷兰原装进口孕妇妈妈奶粉0段900g",
+        "orprice" : "75.00",
+        "price" : "73.00"
+      },
+      { 
+        "id": "1014",
+        "discount" : "8.7",
+        "img" : "./img/kind_list_p5.jpg",
+        "name" : "宝素力加护100孕产妇配方奶粉800克富含膳食纤维",
+        "orprice" : "228.00",
+        "price" : "198.00"
+      }
+    ]
+  },
+  "message": "ok"
+}

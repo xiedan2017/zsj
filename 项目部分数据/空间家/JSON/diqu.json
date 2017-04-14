@@ -1,0 +1,233 @@
+{
+	"data": [
+
+		{
+			"name": "东城区",
+			"url": "http://bj.kongjianjia.com/xiezilou/dongchengqu"
+		}, {
+			"name": "西城区",
+			"url": "http://bj.kongjianjia.com/xiezilou/xichengqu"
+		}, {
+			"name": "海淀区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "朝阳区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "丰台区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "石景山",
+			"url": "www.baidu.com"
+		}, {
+			"name": "区房山",
+			"url": "www.baidu.com"
+		}, {
+			"name": "区门头沟区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "通州区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "顺义区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "昌平区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "怀柔区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "平谷区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "大兴区",
+			"url": "www.baidu.com"
+		}, {
+			"name": "密云县",
+			"url": "www.baidu.com"
+		}, {
+			"name": "延庆县",
+			"url": "www.baidu.com"
+		}
+	],
+	"hotImg": [
+		{
+			"name": "东直门",
+			"url": "",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864c9019d6dc.jpg"
+		}, {
+			"name": "国贸CBD",
+			"url": "",
+			"img": "http://image.kongjianjia.com/Uploads//161226/5860ddbec4416.jpg"
+		}, {
+			"name": "中关村",
+			"url": "",
+			"img": "http://image.kongjianjia.com/Uploads//161226/5860ddbec4416.jpg"
+		}
+	],
+	"hotOffice": [
+		{
+			"name": "北京天安门",
+			"url": "http://bj.kongjianjia.com/xiezilou/150226",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864c9019d6dc.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}, {
+			"name": "北京天安门",
+			"url": "http://bj.kongjianjia.com/xiezilou/150226",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864d40a661a5.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}, {
+			"name": "北京天安门",
+			"url": "http://bj.kongjianjia.com/xiezilou/150226",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864cabdaa7ac.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}, {
+			"name": "北京天安门",
+			"url": "http://bj.kongjianjia.com/xiezilou/150226",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864cabdaa7ac.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}, {
+			"name": "北京天安门",
+			"url": "http://bj.kongjianjia.com/xiezilou/150226",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864cb9e1b3ff.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}, {
+			"name": "北京天安门",
+			"url": "http://bj.kongjianjia.com/xiezilou/150226",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864c9019d6dc.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}, {
+			"name": "北京天安门",
+			"url": "",
+			"img": "http://image.kongjianjia.com/Uploads//161230/5865c2ee1d491.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}, {
+			"name": "北京天安门",
+			"url": "http://bj.kongjianjia.com/xiezilou/150226",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864c9019d6dc.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}, {
+			"name": "北京天安门",
+			"url": "http://bj.kongjianjia.com/xiezilou/150226",
+			"img": "http://image.kongjianjia.com/Uploads//161229/5864c9019d6dc.jpg",
+			"price": "                                6.5元/m²/天 起"
+		}
+	],
+	"ditie":[		
+		{
+			"name": "1号线",
+			"url": "/m1"
+		}, {
+			"name": "2号线",
+			"url": "/m1"
+		}, {
+			"name": "3号线",
+			"url": "/m1"
+		}, {
+			"name": "4号线",
+			"url": "/m1"
+		}, {
+			"name": "5号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "6号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "7号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "8号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "9号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "10号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "13号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "14号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "15号线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "八通线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "昌平线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "亦庄线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "房山线",
+			"url": "www.baidu.com"
+		}, {
+			"name": "地铁机场线",
+			"url": "www.baidu.com"
+		}
+	
+	],
+	"ruzhu":[		
+		{
+			"name": "可入住",
+			"url": "/m1"
+		}, {
+			"name": "1个月后入驻",
+			"url": "/m1"
+		}, {
+			"name": "2个月后入驻",
+			"url": "/m1"
+		}, {
+			"name": "3个月后入驻",
+			"url": "/m1"
+		}, {
+			"name": "4个月后入驻",
+			"url": "www.baidu.com"
+		}, {
+			"name": "5个月后入驻",
+			"url": "www.baidu.com"
+		}, {
+			"name": "6个月后入驻",
+			"url": "www.baidu.com"
+		}
+	
+	],
+	"fenlei":[		
+		{
+			"name": "拎包入驻",
+			"url": "/m1"
+		}, {
+			"name": "靠近轨交",
+			"url": "/m1"
+		}, {
+			"name": "地标建筑",
+			"url": "/m1"
+		}, {
+			"name": "互联网总部大楼",
+			"url": "/m1"
+		}, {
+			"name": "产业特色",
+			"url": "www.baidu.com"
+		}, {
+			"name": "创业孵化",
+			"url": "www.baidu.com"
+		}, {
+			"name": "独栋整层",
+			"url": "www.baidu.com"
+		}
+	
+	]
+	
+	
+	
+	
+	
+	
+	
+}
+

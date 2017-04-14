@@ -1,0 +1,53 @@
+<include file="Common:header"/>
+<js file="__PUBLIC__/Js/common/jquery.validate.min.js"/>
+<div class="place">
+	<span>位置：</span>
+	<ul class="placeul">
+		<li><a href="#">内容管理</a></li>
+		<li><a href="#">留言管理</a></li>
+		<li><a href="#">邮件回复</a></li>
+	</ul>
+</div>
+<div class="formbody">
+	<div class="formtitle"><span>给{$data.name}回复邮件</span></div>
+	<form action="{:U(MODULE_NAME.'/Messages/copyHandle',array('id'=>$data['id']))}" method="post" id="form">
+		<ul class="forminfo">
+		    <li><label>收件人姓名：</label><input name="name" type="text" value="{$data.name}" disabled="true" class="dfinput" /></li>
+		    <li><label>收件人邮箱：</label>
+			    <input name="email" type="hidden" value="{$data.email}" />
+			    <input name="email" type="text" value="{$data.email}" disabled="true" class="dfinput" />
+		    </li>
+			<li><label>邮件标题：</label><textarea name="copytitle" class="textarea"></textarea></li>
+			<li><label>邮件内容：</label><textarea name="copyContent" class="textarea" style="width: 508px; height: 250px;margin-top: 10px;"></textarea></li>
+			<li style="margin-top: 20px;float: left"><label>&nbsp;</label>
+				<input type="submit" class="btn" value="确认发送"/> 
+				<input type="button" class="btn" onclick="window.history.back(-1);" value="返回"/>
+			</li>
+		</ul>
+	</form>
+</div>
+<script type="text/javascript">
+    $(function(){
+	    $('#form').validate({
+		    rules: {
+		      copytitle: {
+		        required: true,
+		        rangelength:[2,50], //输入字符范围
+		      },
+		      copyContent: {
+		        required: true,
+		      }
+		    },
+		    messages: {
+		      copytitle: {
+		        required: "邮件标题不能为空",
+		        rangelength: "邮件长度不能小于[2,50]个字符"
+		      },
+		      copyContent: {
+		        required: "邮件内容不能为空"
+		      },
+		    }
+	    })
+   })
+</script>
+<include file="Common:footer"/>

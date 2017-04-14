@@ -1,0 +1,131 @@
+{
+    "message": "success", 
+    "result": [
+    	{	
+    		"id":31,
+    		"money":"299.00",
+    		"image_url": "img/jingxuan/jingxuan01.jpg",
+    		"title":"【名庄】丽冠巴顿庄园正牌干红葡萄酒 2012"
+    	}, 
+    	{	
+    		"id":32,
+    		"money":"2123.00",
+    		"image_url": "img/jingxuan/jingxuan02.jpg",
+    		"title":"勒格尔伯爵珍藏干红葡萄酒"
+    	},
+    	{	
+    		"id":33,
+    		"money":"319.00",
+    		"image_url": "img/jingxuan/jingxuan03.jpg",
+    		"title":"【名庄】拉格喜庄园正牌干红葡萄酒 2006"
+    		
+    	},
+    	{	
+    		"id":34,
+    		"money":"345.00",
+    		"image_url": "img/jingxuan/jingxuan04.jpg",
+    		"title":"法国乐骑士红葡萄酒-西拉"
+
+    	},
+    	{	
+    		"id":35,
+    		"money":"456.00",
+    		"image_url": "img/jingxuan/jingxuan05.jpg",
+    		"title":"拉菲传奇梅多克干红葡萄酒2012"
+    	},
+    	{	
+    		"id":36,
+    		"money":"234.00",
+    		"image_url": "img/jingxuan/jingxuan06.jpg",
+    		"title":"52度五粮液 浓香型白酒500ml/瓶"
+    	},
+    	{	
+    		"id":37,
+    		"money":"456.00",
+    		"image_url": "img/jingxuan/jingxuan07.jpg",
+    		"title":"薇谷干红葡萄酒"
+    	},
+    	{	
+    		"id":38,
+    		"money":"299.00",
+    		"image_url": "img/jingxuan/jingxuan08.jpg",
+    		"title":"奔富BIN389螺旋盖红葡萄酒2013"
+    	},
+    	{	
+    		"id":39,
+    		"money":"576.00",
+    		"image_url": "img/jingxuan/jingxuan09.jpg",
+    		"title":"布兰尼骑士庄园奥德干红葡萄酒"
+    	},
+    	{	
+    		"id":41,
+    		"money":"299.00",
+    		"image_url": "img/jingxuan/jingxuan01.jpg",
+    		"title":"【名庄】丽冠巴顿庄园正牌干红葡萄酒 2012"
+    	}, 
+    	{	
+    		"id":42,
+    		"money":"2123.00",
+    		"image_url": "img/jingxuan/jingxuan02.jpg",
+    		"title":"勒格尔伯爵珍藏干红葡萄酒"
+    	},
+    	{	
+    		"id":43,
+    		"money":"319.00",
+    		"image_url": "img/jingxuan/jingxuan03.jpg",
+    		"title":"【名庄】拉格喜庄园正牌干红葡萄酒 2006"
+    		
+    	},
+    	{	
+    		"id":44,
+    		"money":"345.00",
+    		"image_url": "img/jingxuan/jingxuan04.jpg",
+    		"title":"法国乐骑士红葡萄酒-西拉"
+
+    	},
+    	{	
+    		"id":45,
+    		"money":"456.00",
+    		"image_url": "img/jingxuan/jingxuan05.jpg",
+    		"title":"拉菲传奇梅多克干红葡萄酒2012"
+    	},
+    	{	
+    		"id":46,
+    		"money":"234.00",
+    		"image_url": "img/jingxuan/jingxuan06.jpg",
+    		"title":"52度五粮液 浓香型白酒500ml/瓶"
+    	},
+    	{	
+    		"id":47,
+    		"money":"456.00",
+    		"image_url": "img/jingxuan/jingxuan07.jpg",
+    		"title":"薇谷干红葡萄酒"
+    	},
+    	{	
+    		"id":48,
+    		"money":"299.00",
+    		"image_url": "img/jingxuan/jingxuan08.jpg",
+    		"title":"奔富BIN389螺旋盖红葡萄酒2013"
+    	},
+    	{	
+    		"id":49,
+    		"money":"576.00",
+    		"image_url": "img/jingxuan/jingxuan01.jpg",
+    		"title":"布兰尼骑士庄园奥德干红葡萄酒"
+    	},
+        {   
+            "id":50,
+            "money":"299.00",
+            "image_url": "img/jingxuan/jingxuan09.jpg",
+            "title":"奔富BIN389螺旋盖红葡萄酒2013"
+        },
+        {   
+            "id":100,
+            "money":"234.00",
+            "image_url": "img/jingxuan/jingxuan06.jpg",
+            "title":"52度五粮液 浓香型白酒500ml/瓶"
+        }
+        
+    ], 
+    "status": "1"
+}

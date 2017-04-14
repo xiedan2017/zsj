@@ -1,0 +1,20 @@
+{
+	"code": 200,
+	"datas": [{
+		"adv_list": {
+			"item": [{
+				"image": "http://mall.cdn.yzijie.com/data/upload/mobile/special/s0/s0_05377049222791067.jpg",
+				"type": "",
+				"data": ""
+			}, {
+				"image": "http://mall.cdn.yzijie.com/data/upload/mobile/special/s0/s0_05377049356221655.jpg",
+				"type": "",
+				"data": ""
+			}, {
+				"image": "http://mall.cdn.yzijie.com/data/upload/mobile/special/s0/s0_05377049463515768.jpg",
+				"type": "",
+				"data": ""
+			}]
+		}
+	}]
+}

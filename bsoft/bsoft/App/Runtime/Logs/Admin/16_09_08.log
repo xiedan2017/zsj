@@ -1,0 +1,1943 @@
+[ 2016-09-08T15:01:52+08:00 ] 127.0.0.1 /dbkl_hqt_project/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-08T15:01:52+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T15:01:53+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Login/images/light.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T15:01:53+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\dbkl_hqt_project\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T15:01:53+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T15:01:53+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Login/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\dbkl_hqt_project\App\Class\Vcode.php 第 181 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T15:01:53+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Login/images/light.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T15:02:01+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `klwl_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `klwl_admin` SET `logintime`='2016-09-08 15:02:01',`loginip`='127.0.0.1',`ipaddress`='本机地址机房' WHERE `id` = 31 [ RunTime:0.0010s ]
+
+[ 2016-09-08T15:02:01+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `klwl_messages` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_messages` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: superadmin D:\WWW\dbkl_hqt_project\App\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `klwl_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_menu` ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: technology D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T15:02:01+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `klwl_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: uid D:\WWW\dbkl_hqt_project\App\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `klwl_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_logo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `klwl_logo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 5 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 19 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 44 行.
+NOTIC: [8] Undefined variable: companyurl D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T15:02:02+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `klwl_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\WWW\dbkl_hqt_project\App\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `klwl_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_logo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_logo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 5 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 19 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 44 行.
+NOTIC: [8] Undefined variable: companyurl D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T15:02:03+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-09-08T15:02:57+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-08T15:04:23+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-08T15:04:26+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-08T15:05:19+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T15:05:40+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `klwl_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\WWW\dbkl_hqt_project\App\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `klwl_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_logo` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_logo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 5 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 19 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 44 行.
+NOTIC: [8] Undefined variable: companyurl D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T15:05:41+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:32:04+08:00 ] 127.0.0.1 /dbkl_hqt_project/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `klwl_messages` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_messages` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: superadmin D:\WWW\dbkl_hqt_project\App\Admin\Controller\IndexController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `klwl_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_menu` ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: technology D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\9df924d9a2d217daa77a359c5bee0c33.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:32:05+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `klwl_admin` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: uid D:\WWW\dbkl_hqt_project\App\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `klwl_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_logo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `klwl_logo` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 5 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 19 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 44 行.
+NOTIC: [8] Undefined variable: companyurl D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:32:06+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `klwl_admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\WWW\dbkl_hqt_project\App\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `klwl_admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_logo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_logo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 5 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 19 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 44 行.
+NOTIC: [8] Undefined variable: companyurl D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:32:07+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:32:45+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:33:05+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:33:07+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:33:09+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:33:10+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:33:10+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-08T16:33:59+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:34:05+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:34:47+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:35:00+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:35:12+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-08T16:35:13+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:35:14+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:35:28+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:35:28+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:37:55+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:38:11+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:38:38+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:38:52+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:39:05+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:39:32+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:40:07+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:40:16+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:42:53+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:42:56+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/edit/id/20.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: pagedata D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php 第 15 行.
+SQL: SELECT * FROM `klwl_product` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pagedata D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php 第 16 行.
+SQL: SELECT * FROM `klwl_product` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_label` WHERE `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\35a64d8c950f0d1e68f44a796e979d7d.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:43:06+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Productcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` ORDER BY sort ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:43:10+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `klwl_admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\WWW\dbkl_hqt_project\App\Admin\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `klwl_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_logo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_logo` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 5 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 19 行.
+NOTIC: [8] Undefined variable: company D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 44 行.
+NOTIC: [8] Undefined variable: companyurl D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\d9e8c752db43d77c05cd2cf54a23d500.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:43:10+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:43:11+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: pagedata D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php 第 15 行.
+SQL: SELECT * FROM `klwl_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pagedata D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php 第 16 行.
+SQL: SELECT * FROM `klwl_product` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_label` WHERE `status` = 0 ORDER BY sort ASC  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\35a64d8c950f0d1e68f44a796e979d7d.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:43:41+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:43:50+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/edit/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: pagedata D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php 第 15 行.
+SQL: SELECT * FROM `klwl_product` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pagedata D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php 第 16 行.
+SQL: SELECT * FROM `klwl_product` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_label` WHERE `status` = 0 ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\35a64d8c950f0d1e68f44a796e979d7d.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T16:44:12+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\WWW\dbkl_hqt_project\App\Runtime\Cache\Admin\1aa00f47914e49ef36467c079727e316.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\WWW\dbkl_hqt_project\ThinkPHP\Common\functions.php:850) D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:45:39+08:00 ] 127.0.0.1 /dbkl_hqt_project/index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 3 for Admin\Controller\CommonController::Page(), called in D:\WWW\dbkl_hqt_project\App\Admin\Controller\ProductController.class.php on line 7 and defined D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: where D:\WWW\dbkl_hqt_project\App\Admin\Controller\CommonController.class.php 第 138 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `klwl_product` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Page.class.php 第 84 行.
+SQL: SHOW COLUMNS FROM `klwl_product` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_product`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `klwl_label` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='20' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `klwl_productcate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='26' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: mapping_order D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit D:\WWW\dbkl_hqt_project\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM klwl_product_label AS a, klwl_label AS b WHERE a.lid = b.id AND a. pid='28' [ RunTime:0.0010s ]
+SQL: SELECT * FROM `klwl_productcate` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,312 @@
+[ 2016-09-21T08:45:27+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/APP/Admin/View/Public/Css/images/image2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:App
+
+[ 2016-09-21T09:27:52+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/GODULE_NAME/Contact/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:GODULE_NAME
+
+[ 2016-09-21T09:28:41+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/home/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T09:28:41+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/home/images/logo1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T09:28:41+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T09:28:41+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/home/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T09:28:41+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/home/images/1-151125115450542.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T09:28:41+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/home/images/logo1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T10:56:58+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/home/images/1-151125115450542.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T10:56:58+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:00:04+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:00:04+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/home/images/1-151125115450542.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:00:06+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:00:06+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/home/images/1-151125115450542.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:00:38+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:00:49+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:01:31+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:02:52+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:06+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:14+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:15+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:20+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:20+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:24+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:25+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:36+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:36+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:42+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:03:48+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:05:02+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:05:33+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:05:34+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:05:41+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T11:07:16+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Amin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Amin
+
+[ 2016-09-21T11:07:31+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/APP/Admin/View/Public/Css/images/image2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:App
+
+[ 2016-09-21T11:20:08+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T15:28:21+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T15:29:51+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/Public/Js/common/jquery.validate.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:03:23+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Public/images/logo1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:03:23+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Public/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:03:23+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Public/js/jquery-1.9.1.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:03:23+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Public/images/bag12.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:03:23+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Public/images/logo1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:03:23+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Public/images/bag10.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:03:23+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Public/images/weixin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:03:23+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/Public/images/bag11.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2016-09-21T16:11:12+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/GROUP_NAME/Product/details/cate/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-09-21T16:11:20+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/GROUP_NAME/Product/details/cate/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-09-21T16:11:34+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/GROUP_NAME/Product/details/cate/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-09-21T16:11:48+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/index.php/GROUP_NAME/Product/details/cate/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:GROUP_NAME
+
+[ 2016-09-21T16:41:32+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/APP/Admin/View/Public/Css/images/image2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:App
+
+[ 2016-09-21T16:55:10+08:00 ] 127.0.0.1 /klwl_hqt_bsoft/APP/Admin/View/Public/Css/images/image2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:App
+

@@ -1,0 +1,320 @@
+{
+    "code": 1000,
+    "data": {
+        "banner_ads": [
+            {
+                "pic": "//s2.juancdn.com/bao/161214/8/1/58512831151ad1027f8b4586_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "http://m.juanpi.com/brand/1758457?shop_id=1841983",
+                "id": "5500",
+                "size": "750*290",
+                "title": "1215居家数码-炊大皇"
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/161214/5/8/58510c98db01d963238b45fb_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "http://m.juanpi.com/brand/136268?shop_id=1110929",
+                "id": "5499",
+                "size": "750*290",
+                "title": "1215居家数码-Flyco/飞科"
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/161115/6/6/582a6ad9db01d9014c8b45c5_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "https://m.juanpi.com/zhuanti/smgh?mjuanpi_wx=1",
+                "id": "5469",
+                "size": "750*290",
+                "title": "1214居家数码-数码个护专场"
+            },
+            {
+                "pic": "//s2.juancdn.com/bao/161209/b/9/584a87da151ad12b7b8b45db_750x290.jpg?iopcmd=convert&Q=80&dst=jpg",
+                "url": "https://m.juanpi.com/zhuanti/rcmj?mjuanpi_wx=1",
+                "id": "5501",
+                "size": "750*290",
+                "title": "1215居家数码-美家达人攻略"
+            }
+        ],
+        "module_ads": {
+            "block_id": "218",
+            "multi_block": [
+                {
+                    "show_type": 1,
+                    "block_type": 6,
+                    "split_line": "0",
+                    "margin_enabled": 0,
+                    "data": [
+                        {
+                            "width": 1,
+                            "triangle": 0,
+                            "height": 0.25,
+                            "child": [
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161121/7/4/583249c2151ad193218b4573_200x200.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/321",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "714",
+                                    "x_record": "1_1",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::688::img_id::714::1_1\",\"cid\":\"\",\"_t\":1481802747}"
+                                },
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161121/a/a/583249cfdb01d9587e8b45d5_200x200.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/322",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "715",
+                                    "x_record": "1_2",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::688::img_id::715::1_2\",\"cid\":\"\",\"_t\":1481802747}"
+                                },
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161121/c/8/583249e7151ad1e7218b4582_200x200.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/323",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "716",
+                                    "x_record": "1_3",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::688::img_id::716::1_3\",\"cid\":\"\",\"_t\":1481802747}"
+                                },
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161121/5/7/583249f5151ad1f9218b4584_200x200.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/324",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "717",
+                                    "x_record": "1_4",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::688::img_id::717::1_4\",\"cid\":\"\",\"_t\":1481802747}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "show_type": 1,
+                    "block_type": 6,
+                    "split_line": "0",
+                    "margin_enabled": 0,
+                    "data": [
+                        {
+                            "width": 1,
+                            "triangle": 0,
+                            "height": 0.25,
+                            "child": [
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161121/7/7/58324a17151ad18e218b4576_200x200.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/328",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "718",
+                                    "x_record": "2_1",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::689::img_id::718::2_1\",\"cid\":\"\",\"_t\":1481802747}"
+                                },
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161121/b/2/58324a25151ad19a218b4591_200x200.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/325",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "719",
+                                    "x_record": "2_2",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::689::img_id::719::2_2\",\"cid\":\"\",\"_t\":1481802747}"
+                                },
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161121/4/7/58324a36151ad1bf228b4582_200x200.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/326",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "720",
+                                    "x_record": "2_3",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::689::img_id::720::2_3\",\"cid\":\"\",\"_t\":1481802747}"
+                                },
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161212/0/6/584e2121db01d9a4788b458e_200x200.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "http://m.juanpi.com/cate/327",
+                                    "layout": "col",
+                                    "width": 0.25,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": null,
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": null,
+                                        "end_text": null
+                                    },
+                                    "bd_id": "721",
+                                    "x_record": "2_4",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::689::img_id::721::2_4\",\"cid\":\"\",\"_t\":1481802747}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "show_type": 1,
+                    "block_type": 4,
+                    "split_line": 0,
+                    "margin_enabled": 10,
+                    "data": [
+                        {
+                            "width": 1,
+                            "triangle": 0,
+                            "height": 0.608,
+                            "child": [
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161214/a/8/58510f51151ad1933d8b45e9_375x456.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "https://m.juanpi.com/act/jujiatop?mjuanpi_wx=1",
+                                    "layout": "col",
+                                    "width": 0.5,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": "0",
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": "",
+                                        "end_text": ""
+                                    },
+                                    "bd_id": "4748",
+                                    "x_record": "3_1",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::2068::img_id::4748::3_1\",\"cid\":\"\",\"_t\":1481802747}"
+                                },
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161214/d/9/58510f5c151ad1c3458b45ae_375x228.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "https://m.juanpi.com/zhuanti/pdjf?mjuanpi_wx=1",
+                                    "layout": "row",
+                                    "width": 0.5,
+                                    "height": 0.5,
+                                    "countdown": {
+                                        "enable_time": "0",
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": "",
+                                        "end_text": ""
+                                    },
+                                    "bd_id": "4749",
+                                    "similar": 2,
+                                    "x_record": "3_2",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::2068::img_id::4749::3_2\",\"cid\":\"\",\"_t\":1481802747}"
+                                },
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/161214/a/f/58510f66db01d9a2238b460f_375x228.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "https://m.juanpi.com/zhuanti/pdsq?mjuanpi_wx=1",
+                                    "layout": "row",
+                                    "width": 0.5,
+                                    "height": 0.5,
+                                    "countdown": {
+                                        "enable_time": "0",
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": "",
+                                        "end_text": ""
+                                    },
+                                    "bd_id": "4750",
+                                    "similar": 2,
+                                    "x_record": "3_3",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::2068::img_id::4750::3_3\",\"cid\":\"\",\"_t\":1481802747}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "show_type": 1,
+                    "block_type": 1,
+                    "split_line": "0",
+                    "margin_enabled": 10,
+                    "data": [
+                        {
+                            "width": 1,
+                            "triangle": 0,
+                            "height": 0.12,
+                            "child": [
+                                {
+                                    "pic": "http://s2.juancdn.com/bao/160914/5/7/57d919dd151ad13b3b8b45dc_750x90.jpg?iopcmd=convert&Q=88&dst=jpg",
+                                    "url": "",
+                                    "layout": "col",
+                                    "width": 1,
+                                    "height": 1,
+                                    "countdown": {
+                                        "enable_time": "0",
+                                        "start_time": "",
+                                        "end_time": "",
+                                        "start_text": "",
+                                        "end_text": ""
+                                    },
+                                    "bd_id": "743",
+                                    "x_record": "4_1",
+                                    "activityname": "click_cube_block",
+                                    "server_jsonstr": "{\"pit_info\":\"ad_id::218::block_id::697::img_id::743::4_1\",\"cid\":\"\",\"_t\":1481802747}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "block_background_color": "",
+            "block_background_image": ""
+        }
+    }
+}

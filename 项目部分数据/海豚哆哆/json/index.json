@@ -1,0 +1,167 @@
+{   
+        "address": [
+            {
+                "traval": {
+                    "name": "澳洲东海岸精华",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094545_87964.jpg",
+                    "span":"心形大堡焦/拥抱考拉",
+                   "travalId" : "1001"
+                }
+            },
+            {
+                "traval": {
+                    "name": "治愈系秘境小岛",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094603_43730.jpg",
+                    "span":"新西兰+库克 / 纯净泄湖",
+                    "travalId" : "1002"
+                }
+            },
+            {
+                "traval": {
+                    "name": "心新西兰南北岛精华",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094615_86451.jpg",
+                    "span":"风光+人文 / 动静皆宜",
+                    "travalId" : "1003"
+                }
+            },
+            {
+                "traval": {
+                    "name": "斐济隐世度假",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094624_91243.jpg",
+                    "span":"斐济隐世度假",
+                    "travalId" : "1004"
+                }
+            },
+            {
+                "traval": {
+                    "name": "塞舌尔双康斯丹",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094639_36864.jpg",
+                    "span":"双岛体验丰富 / 五星酒店",
+                    "travalId" : "1005"
+                }
+            },
+            {
+                "traval": {
+                    "name": "沙巴双香拉度假",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094647_54472.jpg",
+                    "span":"一生必看日落 / 双海景房",
+                    "travalId" : "1006"
+                }
+            }
+        ],
+    "hotAddress" :[
+    	{
+    		
+    	"hot" : {
+    		"title" : "澳大利亚",
+    		"img" : "http://www.dearisland.com/images/m/p-2-1.png",
+    		"hotId":"2001"
+    	
+    		}
+    	},
+    	{
+    	"hot" : {
+    		"title" : "新西兰",
+    		"img" : "http://m.dearisland.com/images/m/p-2-2.png",
+    		"hotId":"2002"
+    	
+    	
+    		}
+    	},
+    	{
+    		
+    	"hot" : {
+    		"title" : "纽西兰",
+    		"img" : "http://m.dearisland.com/images/m/p-2-3.png",
+    		"hotId":"2003"
+    	
+    		}
+    	},
+    	{
+    		
+    	"hot" : {
+    		"title" : "塞舍尔",
+    		"img" : "http://m.dearisland.com/images/m/p-2-4.png",
+    		"hotId": "2004"
+    	
+    		}
+    	},
+    	{
+    		
+    	"hot" : {
+    		"title" : "沙巴",
+    		"img" : "http://m.dearisland.com/images/m/p-2-5.png",
+    		"hotId":"2005"
+    	
+    		}
+    	},
+    	{
+    		
+    	"hot" : {
+    		"title" : "巴厘岛",
+    		"img" : "http://m.dearisland.com/images/m/p-2-6.png",
+    		"hotId":"2006"
+    		
+    	
+    		}
+    	}
+      
+    	],
+    	"topTravel": [
+            {
+                "traval": {
+                    "title": "马代维拉私密度假",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094717_87456.jpg",
+                    "span":"明星最爱酒店 / 潜艇巡游",
+                    "topTraId" :"3001"
+                }
+            },
+            {
+                "traval": {
+                    "title": "马代白马庄园度假",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094726_43901.jpg",
+                    "span":"LVMH旗下 / 马代第一奢华",
+                    "topTraId" :"3002"
+                }
+            },
+            {
+                "traval": {
+                    "title": "斯里兰卡轻奢度假",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094738_63544.jpg",
+                    "span":"全程水飞直达 / 罗莱夏朵",
+                    "topTraId" :"3003"
+                }
+            },
+            {
+                "traval": {
+                    "title": "泰国沽岛小众度假",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094750_32705.jpg",
+                    "span":"私人飞机上岛 / 树屋餐厅",
+                    "topTraId" :"3004"
+                }
+            },
+            {
+                "traval": {
+                    "title": "马来绿中海蜜月",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094801_25801.jpg",
+                    "span":"极致浪漫海岛 / 一价全包",
+                    "topTraId" :"3005"
+                }
+            },
+            {
+                "traval": {
+                    "title": "新西兰南岛深体验",
+                    "img": "http://m.dearisland.com/upload/image/20170124/20170124094812_47499.jpg",
+                    "span":"世界自然遗产 / 行程灵活",
+                    "topTraId" :"3006"
+                }
+            }
+        ],
+        "pageId" : [
+        	{"Id" : "1001"}
+              
+        ]
+
+    
+      
+}
